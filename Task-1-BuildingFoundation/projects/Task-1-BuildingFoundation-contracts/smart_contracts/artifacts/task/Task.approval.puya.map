@@ -1,0 +1,733 @@
+{
+  "version": 3,
+  "sources": [
+    "../../task/contract.py"
+  ],
+  "mappings": ";;;;;;AAIA;;AAAA;;;AAAA;;;;;;;;;;;;;;;;;AAAA;;;AAAA;;;;;;;;AAAA;;AAsBK;;AAAA;AAAA;AAAA;;AAAA;AAtBL;;;AAAA;AAAA;;AAAA;;;AAAA;AAAA;;AAAA;;;AAAA;AAsBK;;;AAAA;;AATA;;AAAA;AAAA;AAAA;;AAAA;AAbL;;;AAAA;AAAA;;AAaK;;;AAAA;;AAXA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;;AAAA;AAAA;;;;;;AAAA;AAAA;AAAA;AAAA;;AAFL;;AAAA;;;;;;;;;AAIsB;AAIC;;;;;;;;;;;;;AADD;;;;;;;;;;;;AADD;;;;AADH;;;;;AADI;;;;AAAA;;;AAAA;;;AAOd;AAER;;;AAEQ;AACmB;;AAEF;;;;;;;;;AAHjB;;;AAIQ;;;AAJR;;AAOR;;;AAEQ;;;;;;;;;;;;;AAAA;;;AAIQ;;;AAJR;",
+  "op_pc_offset": 0,
+  "pc_events": {
+    "1": {
+      "subroutine": "algopy.arc4.ARC4Contract.approval_program",
+      "params": {},
+      "block": "main",
+      "stack_in": [],
+      "op": "intcblock 0 1 4"
+    },
+    "6": {
+      "op": "txn NumAppArgs",
+      "defined_out": [
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "tmp%0#1"
+      ]
+    },
+    "8": {
+      "op": "bz main_bare_routing@8",
+      "stack_out": []
+    },
+    "11": {
+      "op": "pushbytess 0x578263b7 0xb6c2b148 0x12563767 // method \"createAsset()uint64\", method \"asset_opt_in(asset)void\", method \"assetTransfer(asset,account,uint64)void\"",
+      "defined_out": [
+        "Method(assetTransfer(asset,account,uint64)void)",
+        "Method(asset_opt_in(asset)void)",
+        "Method(createAsset()uint64)"
+      ],
+      "stack_out": [
+        "Method(createAsset()uint64)",
+        "Method(asset_opt_in(asset)void)",
+        "Method(assetTransfer(asset,account,uint64)void)"
+      ]
+    },
+    "28": {
+      "op": "txna ApplicationArgs 0",
+      "defined_out": [
+        "Method(assetTransfer(asset,account,uint64)void)",
+        "Method(asset_opt_in(asset)void)",
+        "Method(createAsset()uint64)",
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "Method(createAsset()uint64)",
+        "Method(asset_opt_in(asset)void)",
+        "Method(assetTransfer(asset,account,uint64)void)",
+        "tmp%2#0"
+      ]
+    },
+    "31": {
+      "op": "match main_createAsset_route@3 main_asset_opt_in_route@4 main_assetTransfer_route@5",
+      "stack_out": []
+    },
+    "39": {
+      "block": "main_after_if_else@12",
+      "stack_in": [],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "40": {
+      "op": "return",
+      "stack_out": []
+    },
+    "41": {
+      "block": "main_assetTransfer_route@5",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%14#0"
+      ],
+      "stack_out": [
+        "tmp%14#0"
+      ]
+    },
+    "43": {
+      "op": "!",
+      "defined_out": [
+        "tmp%15#0"
+      ],
+      "stack_out": [
+        "tmp%15#0"
+      ]
+    },
+    "44": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "45": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%16#0"
+      ],
+      "stack_out": [
+        "tmp%16#0"
+      ]
+    },
+    "47": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "48": {
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "reinterpret_bytes[1]%1#0"
+      ],
+      "stack_out": [
+        "reinterpret_bytes[1]%1#0"
+      ]
+    },
+    "51": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%18#0"
+      ],
+      "stack_out": [
+        "tmp%18#0"
+      ]
+    },
+    "52": {
+      "op": "txnas Assets",
+      "defined_out": [
+        "tmp%19#0"
+      ],
+      "stack_out": [
+        "tmp%19#0"
+      ]
+    },
+    "54": {
+      "op": "txna ApplicationArgs 2",
+      "defined_out": [
+        "reinterpret_bytes[1]%2#0",
+        "tmp%19#0"
+      ],
+      "stack_out": [
+        "tmp%19#0",
+        "reinterpret_bytes[1]%2#0"
+      ]
+    },
+    "57": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%19#0",
+        "tmp%20#0"
+      ],
+      "stack_out": [
+        "tmp%19#0",
+        "tmp%20#0"
+      ]
+    },
+    "58": {
+      "op": "txnas Accounts",
+      "defined_out": [
+        "tmp%19#0",
+        "tmp%21#0"
+      ],
+      "stack_out": [
+        "tmp%19#0",
+        "tmp%21#0"
+      ]
+    },
+    "60": {
+      "op": "txna ApplicationArgs 3",
+      "defined_out": [
+        "reinterpret_bytes[8]%0#0",
+        "tmp%19#0",
+        "tmp%21#0"
+      ],
+      "stack_out": [
+        "tmp%19#0",
+        "tmp%21#0",
+        "reinterpret_bytes[8]%0#0"
+      ]
+    },
+    "63": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%19#0",
+        "tmp%21#0",
+        "tmp%22#0"
+      ],
+      "stack_out": [
+        "tmp%19#0",
+        "tmp%21#0",
+        "tmp%22#0"
+      ]
+    },
+    "64": {
+      "callsub": "smart_contracts.task.contract.Task.assetTransfer",
+      "op": "callsub assetTransfer",
+      "stack_out": []
+    },
+    "67": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "68": {
+      "op": "return",
+      "stack_out": []
+    },
+    "69": {
+      "block": "main_asset_opt_in_route@4",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%8#0"
+      ]
+    },
+    "71": {
+      "op": "!",
+      "defined_out": [
+        "tmp%9#0"
+      ],
+      "stack_out": [
+        "tmp%9#0"
+      ]
+    },
+    "72": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "73": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%10#0"
+      ],
+      "stack_out": [
+        "tmp%10#0"
+      ]
+    },
+    "75": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "76": {
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "reinterpret_bytes[1]%0#0"
+      ],
+      "stack_out": [
+        "reinterpret_bytes[1]%0#0"
+      ]
+    },
+    "79": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%12#0"
+      ],
+      "stack_out": [
+        "tmp%12#0"
+      ]
+    },
+    "80": {
+      "op": "txnas Assets",
+      "defined_out": [
+        "tmp%13#0"
+      ],
+      "stack_out": [
+        "tmp%13#0"
+      ]
+    },
+    "82": {
+      "callsub": "smart_contracts.task.contract.Task.asset_opt_in",
+      "op": "callsub asset_opt_in",
+      "stack_out": []
+    },
+    "85": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "86": {
+      "op": "return",
+      "stack_out": []
+    },
+    "87": {
+      "block": "main_createAsset_route@3",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "tmp%3#0"
+      ]
+    },
+    "89": {
+      "op": "!",
+      "defined_out": [
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "tmp%4#0"
+      ]
+    },
+    "90": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "91": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "tmp%5#0"
+      ]
+    },
+    "93": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "94": {
+      "callsub": "smart_contracts.task.contract.Task.createAsset",
+      "op": "callsub createAsset",
+      "defined_out": [
+        "to_encode%0#0"
+      ],
+      "stack_out": [
+        "to_encode%0#0"
+      ]
+    },
+    "97": {
+      "op": "itob",
+      "defined_out": [
+        "val_as_bytes%0#0"
+      ],
+      "stack_out": [
+        "val_as_bytes%0#0"
+      ]
+    },
+    "98": {
+      "op": "pushbytes 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "val_as_bytes%0#0"
+      ],
+      "stack_out": [
+        "val_as_bytes%0#0",
+        "0x151f7c75"
+      ]
+    },
+    "104": {
+      "op": "swap",
+      "stack_out": [
+        "0x151f7c75",
+        "val_as_bytes%0#0"
+      ]
+    },
+    "105": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%7#0"
+      ],
+      "stack_out": [
+        "tmp%7#0"
+      ]
+    },
+    "106": {
+      "op": "log",
+      "stack_out": []
+    },
+    "107": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "108": {
+      "op": "return",
+      "stack_out": []
+    },
+    "109": {
+      "block": "main_bare_routing@8",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%23#0"
+      ],
+      "stack_out": [
+        "tmp%23#0"
+      ]
+    },
+    "111": {
+      "op": "bnz main_after_if_else@12",
+      "stack_out": []
+    },
+    "114": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%24#0"
+      ],
+      "stack_out": [
+        "tmp%24#0"
+      ]
+    },
+    "116": {
+      "op": "!",
+      "defined_out": [
+        "tmp%25#0"
+      ],
+      "stack_out": [
+        "tmp%25#0"
+      ]
+    },
+    "117": {
+      "error": "can only call when creating",
+      "op": "assert // can only call when creating",
+      "stack_out": []
+    },
+    "118": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "119": {
+      "op": "return",
+      "stack_out": []
+    },
+    "120": {
+      "subroutine": "smart_contracts.task.contract.Task.createAsset",
+      "params": {},
+      "block": "createAsset",
+      "stack_in": [],
+      "op": "itxn_begin"
+    },
+    "121": {
+      "op": "pushbytes \"TaskAsset\"",
+      "defined_out": [
+        "\"TaskAsset\""
+      ],
+      "stack_out": [
+        "\"TaskAsset\""
+      ]
+    },
+    "132": {
+      "op": "itxn_field ConfigAssetName",
+      "stack_out": []
+    },
+    "134": {
+      "op": "pushbytes \"TestUnit\"",
+      "defined_out": [
+        "\"TestUnit\""
+      ],
+      "stack_out": [
+        "\"TestUnit\""
+      ]
+    },
+    "144": {
+      "op": "itxn_field ConfigAssetUnitName",
+      "stack_out": []
+    },
+    "146": {
+      "op": "pushint 5 // 5",
+      "defined_out": [
+        "5"
+      ],
+      "stack_out": [
+        "5"
+      ]
+    },
+    "148": {
+      "op": "itxn_field ConfigAssetDecimals",
+      "stack_out": []
+    },
+    "150": {
+      "op": "pushint 10000 // 10000",
+      "defined_out": [
+        "10000"
+      ],
+      "stack_out": [
+        "10000"
+      ]
+    },
+    "153": {
+      "op": "itxn_field ConfigAssetTotal",
+      "stack_out": []
+    },
+    "155": {
+      "op": "pushint 3 // acfg",
+      "defined_out": [
+        "acfg"
+      ],
+      "stack_out": [
+        "acfg"
+      ]
+    },
+    "157": {
+      "op": "itxn_field TypeEnum",
+      "stack_out": []
+    },
+    "159": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "0"
+      ]
+    },
+    "160": {
+      "op": "itxn_field Fee",
+      "stack_out": []
+    },
+    "162": {
+      "op": "itxn_submit"
+    },
+    "163": {
+      "op": "itxn CreatedAssetID",
+      "defined_out": [
+        "itxn_result.CreatedAssetID#0"
+      ],
+      "stack_out": [
+        "itxn_result.CreatedAssetID#0"
+      ]
+    },
+    "165": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "166": {
+      "subroutine": "smart_contracts.task.contract.Task.asset_opt_in",
+      "params": {
+        "asset#0": "uint64"
+      },
+      "block": "asset_opt_in",
+      "stack_in": [],
+      "op": "proto 1 0"
+    },
+    "169": {
+      "op": "itxn_begin"
+    },
+    "170": {
+      "op": "global CurrentApplicationAddress",
+      "defined_out": [
+        "inner_txn_params%0%%param_AssetReceiver_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_txn_params%0%%param_AssetReceiver_idx_0#0"
+      ]
+    },
+    "172": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0",
+        "inner_txn_params%0%%param_AssetReceiver_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_txn_params%0%%param_AssetReceiver_idx_0#0",
+        "0"
+      ]
+    },
+    "173": {
+      "op": "itxn_field AssetAmount",
+      "stack_out": [
+        "inner_txn_params%0%%param_AssetReceiver_idx_0#0"
+      ]
+    },
+    "175": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "asset#0 (copy)",
+        "inner_txn_params%0%%param_AssetReceiver_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_txn_params%0%%param_AssetReceiver_idx_0#0",
+        "asset#0 (copy)"
+      ]
+    },
+    "177": {
+      "op": "itxn_field XferAsset",
+      "stack_out": [
+        "inner_txn_params%0%%param_AssetReceiver_idx_0#0"
+      ]
+    },
+    "179": {
+      "op": "itxn_field AssetReceiver",
+      "stack_out": []
+    },
+    "181": {
+      "op": "intc_2 // axfer",
+      "defined_out": [
+        "axfer"
+      ],
+      "stack_out": [
+        "axfer"
+      ]
+    },
+    "182": {
+      "op": "itxn_field TypeEnum",
+      "stack_out": []
+    },
+    "184": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "0"
+      ]
+    },
+    "185": {
+      "op": "itxn_field Fee",
+      "stack_out": []
+    },
+    "187": {
+      "op": "itxn_submit"
+    },
+    "188": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "189": {
+      "subroutine": "smart_contracts.task.contract.Task.assetTransfer",
+      "params": {
+        "asset#0": "uint64",
+        "receiver#0": "bytes",
+        "amount#0": "uint64"
+      },
+      "block": "assetTransfer",
+      "stack_in": [],
+      "op": "proto 3 0"
+    },
+    "192": {
+      "op": "itxn_begin"
+    },
+    "193": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "amount#0 (copy)"
+      ],
+      "stack_out": [
+        "amount#0 (copy)"
+      ]
+    },
+    "195": {
+      "op": "itxn_field AssetAmount",
+      "stack_out": []
+    },
+    "197": {
+      "op": "frame_dig -3",
+      "defined_out": [
+        "asset#0 (copy)"
+      ],
+      "stack_out": [
+        "asset#0 (copy)"
+      ]
+    },
+    "199": {
+      "op": "itxn_field XferAsset",
+      "stack_out": []
+    },
+    "201": {
+      "op": "frame_dig -2",
+      "defined_out": [
+        "receiver#0 (copy)"
+      ],
+      "stack_out": [
+        "receiver#0 (copy)"
+      ]
+    },
+    "203": {
+      "op": "itxn_field AssetReceiver",
+      "stack_out": []
+    },
+    "205": {
+      "op": "intc_2 // axfer",
+      "defined_out": [
+        "axfer"
+      ],
+      "stack_out": [
+        "axfer"
+      ]
+    },
+    "206": {
+      "op": "itxn_field TypeEnum",
+      "stack_out": []
+    },
+    "208": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "0"
+      ]
+    },
+    "209": {
+      "op": "itxn_field Fee",
+      "stack_out": []
+    },
+    "211": {
+      "op": "itxn_submit"
+    },
+    "212": {
+      "retsub": true,
+      "op": "retsub"
+    }
+  }
+}
