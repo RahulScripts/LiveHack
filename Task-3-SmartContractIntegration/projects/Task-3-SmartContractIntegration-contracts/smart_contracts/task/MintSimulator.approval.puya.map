@@ -1,0 +1,577 @@
+{
+  "version": 3,
+  "sources": [
+    "contract.py"
+  ],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAKQ;AAAoB;AAApB;AACA;AAAmB;;AAAnB;AACA;AAAmB;;AAAnB;AACA;AAAmB;;AAAnB;AAGM;;AAAN;;;AAmB2B;;AAAA;AAAA;;AAPf;AAAA;AAAA;AAAA;AAAR;AAAA;;;AACQ;AAAA;AAAA;AAAA;AAAR;;AAAA;AADA;;;AAEQ;AAAA;AAAA;AAAA;AAAR;;AAAA;AAFA;;;;AAOD;;;AACQ;;AACX;AAAA;AAAA;AAAA;AAAqB;AAArB;AAAA;AAAA;AAAA;AACO;;;;;;AAlBQ;",
+  "op_pc_offset": 0,
+  "pc_events": {
+    "1": {
+      "subroutine": "smart_contracts.task.contract.MintSimulator.__algopy_entrypoint_with_init",
+      "params": {},
+      "block": "main",
+      "stack_in": [],
+      "op": "intcblock 0 1"
+    },
+    "5": {
+      "op": "bytecblock \"total_minted\" \"whitelist_0\" \"whitelist_1\" \"whitelist_2\""
+    },
+    "56": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "addr#0"
+      ]
+    },
+    "57": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "addr#0",
+        "tmp%0#0"
+      ]
+    },
+    "59": {
+      "op": "bnz main_after_if_else@2",
+      "stack_out": [
+        "addr#0"
+      ]
+    },
+    "62": {
+      "op": "bytec_0 // \"total_minted\"",
+      "defined_out": [
+        "\"total_minted\""
+      ],
+      "stack_out": [
+        "addr#0",
+        "\"total_minted\""
+      ]
+    },
+    "63": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "\"total_minted\"",
+        "0"
+      ],
+      "stack_out": [
+        "addr#0",
+        "\"total_minted\"",
+        "0"
+      ]
+    },
+    "64": {
+      "op": "app_global_put",
+      "stack_out": [
+        "addr#0"
+      ]
+    },
+    "65": {
+      "op": "bytec_1 // \"whitelist_0\"",
+      "defined_out": [
+        "\"whitelist_0\""
+      ],
+      "stack_out": [
+        "addr#0",
+        "\"whitelist_0\""
+      ]
+    },
+    "66": {
+      "op": "global ZeroAddress",
+      "defined_out": [
+        "\"whitelist_0\"",
+        "materialized_values%0#0"
+      ],
+      "stack_out": [
+        "addr#0",
+        "\"whitelist_0\"",
+        "materialized_values%0#0"
+      ]
+    },
+    "68": {
+      "op": "app_global_put",
+      "stack_out": [
+        "addr#0"
+      ]
+    },
+    "69": {
+      "op": "bytec_2 // \"whitelist_1\"",
+      "defined_out": [
+        "\"whitelist_1\""
+      ],
+      "stack_out": [
+        "addr#0",
+        "\"whitelist_1\""
+      ]
+    },
+    "70": {
+      "op": "global ZeroAddress",
+      "defined_out": [
+        "\"whitelist_1\"",
+        "materialized_values%1#0"
+      ],
+      "stack_out": [
+        "addr#0",
+        "\"whitelist_1\"",
+        "materialized_values%1#0"
+      ]
+    },
+    "72": {
+      "op": "app_global_put",
+      "stack_out": [
+        "addr#0"
+      ]
+    },
+    "73": {
+      "op": "bytec_3 // \"whitelist_2\"",
+      "defined_out": [
+        "\"whitelist_2\""
+      ],
+      "stack_out": [
+        "addr#0",
+        "\"whitelist_2\""
+      ]
+    },
+    "74": {
+      "op": "global ZeroAddress",
+      "defined_out": [
+        "\"whitelist_2\"",
+        "materialized_values%2#0"
+      ],
+      "stack_out": [
+        "addr#0",
+        "\"whitelist_2\"",
+        "materialized_values%2#0"
+      ]
+    },
+    "76": {
+      "op": "app_global_put",
+      "stack_out": [
+        "addr#0"
+      ]
+    },
+    "77": {
+      "block": "main_after_if_else@2",
+      "stack_in": [
+        "addr#0"
+      ],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "addr#0",
+        "tmp%0#1"
+      ]
+    },
+    "79": {
+      "op": "bnz main_switch_case_default@5",
+      "stack_out": [
+        "addr#0"
+      ]
+    },
+    "82": {
+      "op": "txn Sender"
+    },
+    "84": {
+      "op": "dup",
+      "defined_out": [
+        "addr#0"
+      ],
+      "stack_out": [
+        "addr#0",
+        "addr#0",
+        "addr#0"
+      ]
+    },
+    "85": {
+      "op": "bury 2",
+      "defined_out": [
+        "addr#0"
+      ],
+      "stack_out": [
+        "addr#0",
+        "addr#0"
+      ]
+    },
+    "87": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "addr#0",
+        "addr#0",
+        "0"
+      ]
+    },
+    "88": {
+      "op": "bytec_1 // \"whitelist_0\"",
+      "defined_out": [
+        "\"whitelist_0\"",
+        "0",
+        "addr#0"
+      ],
+      "stack_out": [
+        "addr#0",
+        "addr#0",
+        "0",
+        "\"whitelist_0\""
+      ]
+    },
+    "89": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "addr#0",
+        "maybe_exists%0#0",
+        "maybe_value%0#1"
+      ],
+      "stack_out": [
+        "addr#0",
+        "addr#0",
+        "maybe_value%0#1",
+        "maybe_exists%0#0"
+      ]
+    },
+    "90": {
+      "error": "check self.whitelist_0 exists",
+      "op": "assert // check self.whitelist_0 exists",
+      "stack_out": [
+        "addr#0",
+        "addr#0",
+        "maybe_value%0#1"
+      ]
+    },
+    "91": {
+      "op": "==",
+      "defined_out": [
+        "addr#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "addr#0",
+        "tmp%0#0"
+      ]
+    },
+    "92": {
+      "op": "bnz main_bool_true@10",
+      "stack_out": [
+        "addr#0"
+      ]
+    },
+    "95": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "addr#0",
+        "0"
+      ]
+    },
+    "96": {
+      "op": "bytec_2 // \"whitelist_1\"",
+      "defined_out": [
+        "\"whitelist_1\"",
+        "0",
+        "addr#0"
+      ],
+      "stack_out": [
+        "addr#0",
+        "0",
+        "\"whitelist_1\""
+      ]
+    },
+    "97": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "addr#0",
+        "maybe_exists%1#0",
+        "maybe_value%1#0"
+      ],
+      "stack_out": [
+        "addr#0",
+        "maybe_value%1#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "98": {
+      "error": "check self.whitelist_1 exists",
+      "op": "assert // check self.whitelist_1 exists",
+      "stack_out": [
+        "addr#0",
+        "maybe_value%1#0"
+      ]
+    },
+    "99": {
+      "op": "dig 1",
+      "stack_out": [
+        "addr#0",
+        "maybe_value%1#0",
+        "addr#0"
+      ]
+    },
+    "101": {
+      "op": "==",
+      "defined_out": [
+        "addr#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "addr#0",
+        "tmp%1#0"
+      ]
+    },
+    "102": {
+      "op": "bnz main_bool_true@10",
+      "stack_out": [
+        "addr#0"
+      ]
+    },
+    "105": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "addr#0",
+        "0"
+      ]
+    },
+    "106": {
+      "op": "bytec_3 // \"whitelist_2\"",
+      "defined_out": [
+        "\"whitelist_2\"",
+        "0",
+        "addr#0"
+      ],
+      "stack_out": [
+        "addr#0",
+        "0",
+        "\"whitelist_2\""
+      ]
+    },
+    "107": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "addr#0",
+        "maybe_exists%2#0",
+        "maybe_value%2#0"
+      ],
+      "stack_out": [
+        "addr#0",
+        "maybe_value%2#0",
+        "maybe_exists%2#0"
+      ]
+    },
+    "108": {
+      "error": "check self.whitelist_2 exists",
+      "op": "assert // check self.whitelist_2 exists",
+      "stack_out": [
+        "addr#0",
+        "maybe_value%2#0"
+      ]
+    },
+    "109": {
+      "op": "dig 1",
+      "stack_out": [
+        "addr#0",
+        "maybe_value%2#0",
+        "addr#0"
+      ]
+    },
+    "111": {
+      "op": "==",
+      "defined_out": [
+        "addr#0",
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "addr#0",
+        "tmp%2#0"
+      ]
+    },
+    "112": {
+      "op": "bz main_bool_false@11",
+      "stack_out": [
+        "addr#0"
+      ]
+    },
+    "115": {
+      "block": "main_bool_true@10",
+      "stack_in": [
+        "addr#0"
+      ],
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "or_result%0#0"
+      ],
+      "stack_out": [
+        "addr#0",
+        "or_result%0#0"
+      ]
+    },
+    "116": {
+      "block": "main_bool_merge@12",
+      "stack_in": [
+        "addr#0",
+        "or_result%0#0"
+      ],
+      "op": "bnz main_after_if_else@14",
+      "defined_out": [],
+      "stack_out": [
+        "addr#0"
+      ]
+    },
+    "119": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "addr#0",
+        "tmp%1#0"
+      ]
+    },
+    "120": {
+      "op": "return",
+      "stack_out": [
+        "addr#0"
+      ]
+    },
+    "121": {
+      "block": "main_after_if_else@14",
+      "stack_in": [
+        "addr#0"
+      ],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "addr#0",
+        "0"
+      ]
+    },
+    "122": {
+      "op": "bytec_0 // \"total_minted\"",
+      "defined_out": [
+        "\"total_minted\"",
+        "0"
+      ],
+      "stack_out": [
+        "addr#0",
+        "0",
+        "\"total_minted\""
+      ]
+    },
+    "123": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "addr#0",
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "124": {
+      "error": "check self.total_minted exists",
+      "op": "assert // check self.total_minted exists",
+      "stack_out": [
+        "addr#0",
+        "maybe_value%0#0"
+      ]
+    },
+    "125": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "addr#0",
+        "maybe_value%0#0",
+        "1"
+      ]
+    },
+    "126": {
+      "op": "+",
+      "defined_out": [
+        "materialized_values%0#1"
+      ],
+      "stack_out": [
+        "addr#0",
+        "materialized_values%0#1"
+      ]
+    },
+    "127": {
+      "op": "bytec_0 // \"total_minted\"",
+      "stack_out": [
+        "addr#0",
+        "materialized_values%0#1",
+        "\"total_minted\""
+      ]
+    },
+    "128": {
+      "op": "swap",
+      "stack_out": [
+        "addr#0",
+        "\"total_minted\"",
+        "materialized_values%0#1"
+      ]
+    },
+    "129": {
+      "op": "app_global_put",
+      "stack_out": [
+        "addr#0"
+      ]
+    },
+    "130": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "addr#0",
+        "tmp%1#0"
+      ]
+    },
+    "131": {
+      "op": "return",
+      "stack_out": [
+        "addr#0"
+      ]
+    },
+    "132": {
+      "block": "main_bool_false@11",
+      "stack_in": [
+        "addr#0"
+      ],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "or_result%0#0"
+      ],
+      "stack_out": [
+        "addr#0",
+        "or_result%0#0"
+      ]
+    },
+    "133": {
+      "op": "b main_bool_merge@12"
+    },
+    "136": {
+      "block": "main_switch_case_default@5",
+      "stack_in": [
+        "addr#0"
+      ],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "addr#0",
+        "tmp%1#0"
+      ]
+    },
+    "137": {
+      "op": "return",
+      "stack_out": [
+        "addr#0"
+      ]
+    }
+  }
+}

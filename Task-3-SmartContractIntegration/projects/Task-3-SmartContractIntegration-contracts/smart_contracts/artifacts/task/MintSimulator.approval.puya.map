@@ -1,0 +1,1711 @@
+{
+  "version": 3,
+  "sources": [
+    "../../task/contract.py"
+  ],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAWQ;AAAoB;AAApB;AACA;AAAoB;AAApB;AACA;AAAkB;AAAlB;AACA;;AAAmB;;AAAnB;AACA;;AAAmB;;AAAnB;AACA;;AAAmB;;AAAnB;AAdR;;AAAA;;;AAAA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;;;AAAA;;;;;;;;;;;;;;;;AAAA;;AA2DK;;AAAA;AAAA;AAAA;;AAAA;AAAA;;;AAAA;AAAA;AAAA;AAAA;AAAA;;AAJA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;;AAAA;AAAA;AAAA;AAAA;AAAA;;AAJA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;;AAAA;AAAA;AAAA;AAAA;AAAA;;AANA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;;AAAA;AAAA;AAAA;AAAA;AAAA;;AANA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;;AAAA;AAAA;AAAA;AAAA;AAAA;;AAZA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;;AAAA;AAAA;AAAA;AAAA;AAAA;;AAXA;;AAAA;AAAA;AAAA;;AAAA;AAhBL;;;AAAA;;;AAAA;;;AAgBK;;;AAAA;;AAhBL;;AAAA;;;;;;;;;AAgBA;;;AAOQ;;AAAA;;AAAA;AACA;;AAAA;;AAAA;AACA;;AAAA;;AAAA;;AAER;;;AAE4C;;AAApC;AAEc;AAAA;;AAAA;AAAA;AAAV;AAAA;;;AACU;AAAA;;AAAA;AAAA;AAAV;;AAAA;AADA;;;AAEU;AAAA;;AAAA;AAAA;AAAV;;AAAA;AAFA;;;AAIO;;;AAAP;AAAA;AACJ;AAAA;AAAA;AAAA;AAAqB;AAArB;AAAA;AAAA;AAAA;AACO;;AAAP;AAAA;AAKA;AAAA;AAAA;AAAA;AAAqB;AAArB;AAAA;AAAA;AAAA;AACO;;AAAP;AAKA;AAAA;AAAA;AAAA;AAAmB;AAAnB;AAAA;AAAA;AAAA;AACO;;AAAP;AAImB;AAAA;AAAA;AAAA;AAAZ;AAAP;AAImB;AAAA;AAAA;AAAA;AAAZ;AAAP;AAImB;AAAA;AAAA;AAAA;AAAZ;AAAP",
+  "op_pc_offset": 0,
+  "pc_events": {
+    "1": {
+      "subroutine": "smart_contracts.task.contract.MintSimulator.__algopy_entrypoint_with_init",
+      "params": {},
+      "block": "main",
+      "stack_in": [],
+      "op": "intcblock 0 1"
+    },
+    "5": {
+      "op": "bytecblock 0x151f7c75 \"total_minted\" \"total_bought\" \"total_sold\" \"whitelist_0\" \"whitelist_1\" \"whitelist_2\" 0x80"
+    },
+    "87": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "89": {
+      "op": "bnz main_after_if_else@2",
+      "stack_out": []
+    },
+    "92": {
+      "op": "bytec_1 // \"total_minted\"",
+      "defined_out": [
+        "\"total_minted\""
+      ],
+      "stack_out": [
+        "\"total_minted\""
+      ]
+    },
+    "93": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "\"total_minted\"",
+        "0"
+      ],
+      "stack_out": [
+        "\"total_minted\"",
+        "0"
+      ]
+    },
+    "94": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "95": {
+      "op": "bytec_2 // \"total_bought\"",
+      "defined_out": [
+        "\"total_bought\""
+      ],
+      "stack_out": [
+        "\"total_bought\""
+      ]
+    },
+    "96": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "\"total_bought\"",
+        "0"
+      ]
+    },
+    "97": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "98": {
+      "op": "bytec_3 // \"total_sold\"",
+      "defined_out": [
+        "\"total_sold\""
+      ],
+      "stack_out": [
+        "\"total_sold\""
+      ]
+    },
+    "99": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "\"total_sold\"",
+        "0"
+      ]
+    },
+    "100": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "101": {
+      "op": "bytec 4 // \"whitelist_0\"",
+      "defined_out": [
+        "\"whitelist_0\""
+      ],
+      "stack_out": [
+        "\"whitelist_0\""
+      ]
+    },
+    "103": {
+      "op": "global ZeroAddress",
+      "defined_out": [
+        "\"whitelist_0\"",
+        "materialized_values%0#0"
+      ],
+      "stack_out": [
+        "\"whitelist_0\"",
+        "materialized_values%0#0"
+      ]
+    },
+    "105": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "106": {
+      "op": "bytec 5 // \"whitelist_1\"",
+      "defined_out": [
+        "\"whitelist_1\""
+      ],
+      "stack_out": [
+        "\"whitelist_1\""
+      ]
+    },
+    "108": {
+      "op": "global ZeroAddress",
+      "defined_out": [
+        "\"whitelist_1\"",
+        "materialized_values%1#0"
+      ],
+      "stack_out": [
+        "\"whitelist_1\"",
+        "materialized_values%1#0"
+      ]
+    },
+    "110": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "111": {
+      "op": "bytec 6 // \"whitelist_2\"",
+      "defined_out": [
+        "\"whitelist_2\""
+      ],
+      "stack_out": [
+        "\"whitelist_2\""
+      ]
+    },
+    "113": {
+      "op": "global ZeroAddress",
+      "defined_out": [
+        "\"whitelist_2\"",
+        "materialized_values%2#0"
+      ],
+      "stack_out": [
+        "\"whitelist_2\"",
+        "materialized_values%2#0"
+      ]
+    },
+    "115": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "116": {
+      "block": "main_after_if_else@2",
+      "stack_in": [],
+      "op": "txn NumAppArgs",
+      "defined_out": [
+        "tmp%0#2"
+      ],
+      "stack_out": [
+        "tmp%0#2"
+      ]
+    },
+    "118": {
+      "op": "bz main_bare_routing@12",
+      "stack_out": []
+    },
+    "121": {
+      "op": "pushbytess 0x600ba0bd 0x43079ef8 0x0bd3888f 0x6d085326 0x22e4c5a0 0xc48f9bef 0x1de74ddd // method \"set_whitelist(address,address,address)void\", method \"mint()bool\", method \"buy()bool\", method \"sell()bool\", method \"get_total_minted()uint64\", method \"get_total_bought()uint64\", method \"get_total_sold()uint64\"",
+      "defined_out": [
+        "Method(buy()bool)",
+        "Method(get_total_bought()uint64)",
+        "Method(get_total_minted()uint64)",
+        "Method(get_total_sold()uint64)",
+        "Method(mint()bool)",
+        "Method(sell()bool)",
+        "Method(set_whitelist(address,address,address)void)"
+      ],
+      "stack_out": [
+        "Method(set_whitelist(address,address,address)void)",
+        "Method(mint()bool)",
+        "Method(buy()bool)",
+        "Method(sell()bool)",
+        "Method(get_total_minted()uint64)",
+        "Method(get_total_bought()uint64)",
+        "Method(get_total_sold()uint64)"
+      ]
+    },
+    "158": {
+      "op": "txna ApplicationArgs 0",
+      "defined_out": [
+        "Method(buy()bool)",
+        "Method(get_total_bought()uint64)",
+        "Method(get_total_minted()uint64)",
+        "Method(get_total_sold()uint64)",
+        "Method(mint()bool)",
+        "Method(sell()bool)",
+        "Method(set_whitelist(address,address,address)void)",
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "Method(set_whitelist(address,address,address)void)",
+        "Method(mint()bool)",
+        "Method(buy()bool)",
+        "Method(sell()bool)",
+        "Method(get_total_minted()uint64)",
+        "Method(get_total_bought()uint64)",
+        "Method(get_total_sold()uint64)",
+        "tmp%2#0"
+      ]
+    },
+    "161": {
+      "op": "match main_set_whitelist_route@5 main_mint_route@6 main_buy_route@7 main_sell_route@8 main_get_total_minted_route@9 main_get_total_bought_route@10 main_get_total_sold_route@11",
+      "stack_out": []
+    },
+    "177": {
+      "block": "main_after_if_else@14",
+      "stack_in": [],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "178": {
+      "op": "return",
+      "stack_out": []
+    },
+    "179": {
+      "block": "main_get_total_sold_route@11",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%37#0"
+      ],
+      "stack_out": [
+        "tmp%37#0"
+      ]
+    },
+    "181": {
+      "op": "!",
+      "defined_out": [
+        "tmp%38#0"
+      ],
+      "stack_out": [
+        "tmp%38#0"
+      ]
+    },
+    "182": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "183": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%39#0"
+      ],
+      "stack_out": [
+        "tmp%39#0"
+      ]
+    },
+    "185": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "186": {
+      "callsub": "smart_contracts.task.contract.MintSimulator.get_total_sold",
+      "op": "callsub get_total_sold",
+      "defined_out": [
+        "tmp%41#0"
+      ],
+      "stack_out": [
+        "tmp%41#0"
+      ]
+    },
+    "189": {
+      "op": "bytec_0 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "tmp%41#0"
+      ],
+      "stack_out": [
+        "tmp%41#0",
+        "0x151f7c75"
+      ]
+    },
+    "190": {
+      "op": "swap",
+      "stack_out": [
+        "0x151f7c75",
+        "tmp%41#0"
+      ]
+    },
+    "191": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%42#0"
+      ],
+      "stack_out": [
+        "tmp%42#0"
+      ]
+    },
+    "192": {
+      "op": "log",
+      "stack_out": []
+    },
+    "193": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "194": {
+      "op": "return",
+      "stack_out": []
+    },
+    "195": {
+      "block": "main_get_total_bought_route@10",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%31#0"
+      ],
+      "stack_out": [
+        "tmp%31#0"
+      ]
+    },
+    "197": {
+      "op": "!",
+      "defined_out": [
+        "tmp%32#0"
+      ],
+      "stack_out": [
+        "tmp%32#0"
+      ]
+    },
+    "198": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "199": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%33#0"
+      ],
+      "stack_out": [
+        "tmp%33#0"
+      ]
+    },
+    "201": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "202": {
+      "callsub": "smart_contracts.task.contract.MintSimulator.get_total_bought",
+      "op": "callsub get_total_bought",
+      "defined_out": [
+        "tmp%35#0"
+      ],
+      "stack_out": [
+        "tmp%35#0"
+      ]
+    },
+    "205": {
+      "op": "bytec_0 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "tmp%35#0"
+      ],
+      "stack_out": [
+        "tmp%35#0",
+        "0x151f7c75"
+      ]
+    },
+    "206": {
+      "op": "swap",
+      "stack_out": [
+        "0x151f7c75",
+        "tmp%35#0"
+      ]
+    },
+    "207": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%36#0"
+      ],
+      "stack_out": [
+        "tmp%36#0"
+      ]
+    },
+    "208": {
+      "op": "log",
+      "stack_out": []
+    },
+    "209": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "210": {
+      "op": "return",
+      "stack_out": []
+    },
+    "211": {
+      "block": "main_get_total_minted_route@9",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%25#0"
+      ],
+      "stack_out": [
+        "tmp%25#0"
+      ]
+    },
+    "213": {
+      "op": "!",
+      "defined_out": [
+        "tmp%26#0"
+      ],
+      "stack_out": [
+        "tmp%26#0"
+      ]
+    },
+    "214": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "215": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%27#0"
+      ],
+      "stack_out": [
+        "tmp%27#0"
+      ]
+    },
+    "217": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "218": {
+      "callsub": "smart_contracts.task.contract.MintSimulator.get_total_minted",
+      "op": "callsub get_total_minted",
+      "defined_out": [
+        "tmp%29#0"
+      ],
+      "stack_out": [
+        "tmp%29#0"
+      ]
+    },
+    "221": {
+      "op": "bytec_0 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "tmp%29#0"
+      ],
+      "stack_out": [
+        "tmp%29#0",
+        "0x151f7c75"
+      ]
+    },
+    "222": {
+      "op": "swap",
+      "stack_out": [
+        "0x151f7c75",
+        "tmp%29#0"
+      ]
+    },
+    "223": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%30#0"
+      ],
+      "stack_out": [
+        "tmp%30#0"
+      ]
+    },
+    "224": {
+      "op": "log",
+      "stack_out": []
+    },
+    "225": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "226": {
+      "op": "return",
+      "stack_out": []
+    },
+    "227": {
+      "block": "main_sell_route@8",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%19#0"
+      ],
+      "stack_out": [
+        "tmp%19#0"
+      ]
+    },
+    "229": {
+      "op": "!",
+      "defined_out": [
+        "tmp%20#0"
+      ],
+      "stack_out": [
+        "tmp%20#0"
+      ]
+    },
+    "230": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "231": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%21#0"
+      ],
+      "stack_out": [
+        "tmp%21#0"
+      ]
+    },
+    "233": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "234": {
+      "callsub": "smart_contracts.task.contract.MintSimulator.sell",
+      "op": "callsub sell",
+      "defined_out": [
+        "tmp%23#0"
+      ],
+      "stack_out": [
+        "tmp%23#0"
+      ]
+    },
+    "237": {
+      "op": "bytec_0 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "tmp%23#0"
+      ],
+      "stack_out": [
+        "tmp%23#0",
+        "0x151f7c75"
+      ]
+    },
+    "238": {
+      "op": "swap",
+      "stack_out": [
+        "0x151f7c75",
+        "tmp%23#0"
+      ]
+    },
+    "239": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%24#0"
+      ],
+      "stack_out": [
+        "tmp%24#0"
+      ]
+    },
+    "240": {
+      "op": "log",
+      "stack_out": []
+    },
+    "241": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "242": {
+      "op": "return",
+      "stack_out": []
+    },
+    "243": {
+      "block": "main_buy_route@7",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%13#0"
+      ],
+      "stack_out": [
+        "tmp%13#0"
+      ]
+    },
+    "245": {
+      "op": "!",
+      "defined_out": [
+        "tmp%14#0"
+      ],
+      "stack_out": [
+        "tmp%14#0"
+      ]
+    },
+    "246": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "247": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%15#0"
+      ],
+      "stack_out": [
+        "tmp%15#0"
+      ]
+    },
+    "249": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "250": {
+      "callsub": "smart_contracts.task.contract.MintSimulator.buy",
+      "op": "callsub buy",
+      "defined_out": [
+        "tmp%17#0"
+      ],
+      "stack_out": [
+        "tmp%17#0"
+      ]
+    },
+    "253": {
+      "op": "bytec_0 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "tmp%17#0"
+      ],
+      "stack_out": [
+        "tmp%17#0",
+        "0x151f7c75"
+      ]
+    },
+    "254": {
+      "op": "swap",
+      "stack_out": [
+        "0x151f7c75",
+        "tmp%17#0"
+      ]
+    },
+    "255": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%18#0"
+      ],
+      "stack_out": [
+        "tmp%18#0"
+      ]
+    },
+    "256": {
+      "op": "log",
+      "stack_out": []
+    },
+    "257": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "258": {
+      "op": "return",
+      "stack_out": []
+    },
+    "259": {
+      "block": "main_mint_route@6",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%7#0"
+      ],
+      "stack_out": [
+        "tmp%7#0"
+      ]
+    },
+    "261": {
+      "op": "!",
+      "defined_out": [
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%8#0"
+      ]
+    },
+    "262": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "263": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%9#0"
+      ],
+      "stack_out": [
+        "tmp%9#0"
+      ]
+    },
+    "265": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "266": {
+      "callsub": "smart_contracts.task.contract.MintSimulator.mint",
+      "op": "callsub mint",
+      "defined_out": [
+        "tmp%11#0"
+      ],
+      "stack_out": [
+        "tmp%11#0"
+      ]
+    },
+    "269": {
+      "op": "bytec_0 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "tmp%11#0"
+      ],
+      "stack_out": [
+        "tmp%11#0",
+        "0x151f7c75"
+      ]
+    },
+    "270": {
+      "op": "swap",
+      "stack_out": [
+        "0x151f7c75",
+        "tmp%11#0"
+      ]
+    },
+    "271": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%12#0"
+      ],
+      "stack_out": [
+        "tmp%12#0"
+      ]
+    },
+    "272": {
+      "op": "log",
+      "stack_out": []
+    },
+    "273": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "274": {
+      "op": "return",
+      "stack_out": []
+    },
+    "275": {
+      "block": "main_set_whitelist_route@5",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "tmp%3#0"
+      ]
+    },
+    "277": {
+      "op": "!",
+      "defined_out": [
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "tmp%4#0"
+      ]
+    },
+    "278": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "279": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "tmp%5#0"
+      ]
+    },
+    "281": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "282": {
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "reinterpret_bytes[32]%0#0"
+      ],
+      "stack_out": [
+        "reinterpret_bytes[32]%0#0"
+      ]
+    },
+    "285": {
+      "op": "txna ApplicationArgs 2",
+      "defined_out": [
+        "reinterpret_bytes[32]%0#0",
+        "reinterpret_bytes[32]%1#0"
+      ],
+      "stack_out": [
+        "reinterpret_bytes[32]%0#0",
+        "reinterpret_bytes[32]%1#0"
+      ]
+    },
+    "288": {
+      "op": "txna ApplicationArgs 3",
+      "defined_out": [
+        "reinterpret_bytes[32]%0#0",
+        "reinterpret_bytes[32]%1#0",
+        "reinterpret_bytes[32]%2#0"
+      ],
+      "stack_out": [
+        "reinterpret_bytes[32]%0#0",
+        "reinterpret_bytes[32]%1#0",
+        "reinterpret_bytes[32]%2#0"
+      ]
+    },
+    "291": {
+      "callsub": "smart_contracts.task.contract.MintSimulator.set_whitelist",
+      "op": "callsub set_whitelist",
+      "stack_out": []
+    },
+    "294": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "295": {
+      "op": "return",
+      "stack_out": []
+    },
+    "296": {
+      "block": "main_bare_routing@12",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%43#0"
+      ],
+      "stack_out": [
+        "tmp%43#0"
+      ]
+    },
+    "298": {
+      "op": "bnz main_after_if_else@14",
+      "stack_out": []
+    },
+    "301": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%44#0"
+      ],
+      "stack_out": [
+        "tmp%44#0"
+      ]
+    },
+    "303": {
+      "op": "!",
+      "defined_out": [
+        "tmp%45#0"
+      ],
+      "stack_out": [
+        "tmp%45#0"
+      ]
+    },
+    "304": {
+      "error": "can only call when creating",
+      "op": "assert // can only call when creating",
+      "stack_out": []
+    },
+    "305": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "306": {
+      "op": "return",
+      "stack_out": []
+    },
+    "307": {
+      "subroutine": "smart_contracts.task.contract.MintSimulator.set_whitelist",
+      "params": {
+        "addr0#0": "bytes",
+        "addr1#0": "bytes",
+        "addr2#0": "bytes"
+      },
+      "block": "set_whitelist",
+      "stack_in": [],
+      "op": "proto 3 0"
+    },
+    "310": {
+      "op": "bytec 4 // \"whitelist_0\"",
+      "defined_out": [
+        "\"whitelist_0\""
+      ],
+      "stack_out": [
+        "\"whitelist_0\""
+      ]
+    },
+    "312": {
+      "op": "frame_dig -3",
+      "defined_out": [
+        "\"whitelist_0\"",
+        "addr0#0 (copy)"
+      ],
+      "stack_out": [
+        "\"whitelist_0\"",
+        "addr0#0 (copy)"
+      ]
+    },
+    "314": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "315": {
+      "op": "bytec 5 // \"whitelist_1\"",
+      "defined_out": [
+        "\"whitelist_1\""
+      ],
+      "stack_out": [
+        "\"whitelist_1\""
+      ]
+    },
+    "317": {
+      "op": "frame_dig -2",
+      "defined_out": [
+        "\"whitelist_1\"",
+        "addr1#0 (copy)"
+      ],
+      "stack_out": [
+        "\"whitelist_1\"",
+        "addr1#0 (copy)"
+      ]
+    },
+    "319": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "320": {
+      "op": "bytec 6 // \"whitelist_2\"",
+      "defined_out": [
+        "\"whitelist_2\""
+      ],
+      "stack_out": [
+        "\"whitelist_2\""
+      ]
+    },
+    "322": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "\"whitelist_2\"",
+        "addr2#0 (copy)"
+      ],
+      "stack_out": [
+        "\"whitelist_2\"",
+        "addr2#0 (copy)"
+      ]
+    },
+    "324": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "325": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "326": {
+      "subroutine": "smart_contracts.task.contract.MintSimulator.mint",
+      "params": {},
+      "block": "mint",
+      "stack_in": [],
+      "op": "proto 0 1"
+    },
+    "329": {
+      "op": "txn Sender"
+    },
+    "331": {
+      "op": "dup"
+    },
+    "332": {
+      "op": "intc_0 // 0"
+    },
+    "333": {
+      "op": "bytec 4 // \"whitelist_0\"",
+      "defined_out": [
+        "\"whitelist_0\"",
+        "0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "sender#0",
+        "0",
+        "\"whitelist_0\""
+      ]
+    },
+    "335": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "sender#0",
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "336": {
+      "error": "check self.whitelist_0 exists",
+      "op": "assert // check self.whitelist_0 exists",
+      "stack_out": [
+        "sender#0",
+        "sender#0",
+        "maybe_value%0#0"
+      ]
+    },
+    "337": {
+      "op": "==",
+      "defined_out": [
+        "sender#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "tmp%0#0"
+      ]
+    },
+    "338": {
+      "op": "bnz mint_after_if_else@4",
+      "stack_out": [
+        "sender#0"
+      ]
+    },
+    "341": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "sender#0",
+        "0"
+      ]
+    },
+    "342": {
+      "op": "bytec 5 // \"whitelist_1\"",
+      "defined_out": [
+        "\"whitelist_1\"",
+        "0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "0",
+        "\"whitelist_1\""
+      ]
+    },
+    "344": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%1#0",
+        "maybe_value%1#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "maybe_value%1#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "345": {
+      "error": "check self.whitelist_1 exists",
+      "op": "assert // check self.whitelist_1 exists",
+      "stack_out": [
+        "sender#0",
+        "maybe_value%1#0"
+      ]
+    },
+    "346": {
+      "op": "frame_dig 0",
+      "stack_out": [
+        "sender#0",
+        "maybe_value%1#0",
+        "sender#0"
+      ]
+    },
+    "348": {
+      "op": "==",
+      "defined_out": [
+        "sender#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "tmp%1#0"
+      ]
+    },
+    "349": {
+      "op": "bnz mint_after_if_else@4",
+      "stack_out": [
+        "sender#0"
+      ]
+    },
+    "352": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "sender#0",
+        "0"
+      ]
+    },
+    "353": {
+      "op": "bytec 6 // \"whitelist_2\"",
+      "defined_out": [
+        "\"whitelist_2\"",
+        "0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "0",
+        "\"whitelist_2\""
+      ]
+    },
+    "355": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%2#0",
+        "maybe_value%2#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "maybe_value%2#0",
+        "maybe_exists%2#0"
+      ]
+    },
+    "356": {
+      "error": "check self.whitelist_2 exists",
+      "op": "assert // check self.whitelist_2 exists",
+      "stack_out": [
+        "sender#0",
+        "maybe_value%2#0"
+      ]
+    },
+    "357": {
+      "op": "frame_dig 0",
+      "stack_out": [
+        "sender#0",
+        "maybe_value%2#0",
+        "sender#0"
+      ]
+    },
+    "359": {
+      "op": "==",
+      "defined_out": [
+        "sender#0",
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "tmp%2#0"
+      ]
+    },
+    "360": {
+      "op": "bnz mint_after_if_else@4",
+      "stack_out": [
+        "sender#0"
+      ]
+    },
+    "363": {
+      "op": "pushbytes 0x00",
+      "defined_out": [
+        "0x00",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "0x00"
+      ]
+    },
+    "366": {
+      "op": "swap"
+    },
+    "367": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "368": {
+      "block": "mint_after_if_else@4",
+      "stack_in": [
+        "sender#0"
+      ],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "0"
+      ]
+    },
+    "369": {
+      "op": "bytec_1 // \"total_minted\"",
+      "defined_out": [
+        "\"total_minted\"",
+        "0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "0",
+        "\"total_minted\""
+      ]
+    },
+    "370": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%3#0",
+        "maybe_value%3#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "maybe_value%3#0",
+        "maybe_exists%3#0"
+      ]
+    },
+    "371": {
+      "error": "check self.total_minted exists",
+      "op": "assert // check self.total_minted exists",
+      "stack_out": [
+        "sender#0",
+        "maybe_value%3#0"
+      ]
+    },
+    "372": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1",
+        "maybe_value%3#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "maybe_value%3#0",
+        "1"
+      ]
+    },
+    "373": {
+      "op": "+",
+      "defined_out": [
+        "materialized_values%0#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "materialized_values%0#0"
+      ]
+    },
+    "374": {
+      "op": "bytec_1 // \"total_minted\"",
+      "stack_out": [
+        "sender#0",
+        "materialized_values%0#0",
+        "\"total_minted\""
+      ]
+    },
+    "375": {
+      "op": "swap",
+      "stack_out": [
+        "sender#0",
+        "\"total_minted\"",
+        "materialized_values%0#0"
+      ]
+    },
+    "376": {
+      "op": "app_global_put",
+      "stack_out": [
+        "sender#0"
+      ]
+    },
+    "377": {
+      "op": "bytec 7 // 0x80",
+      "defined_out": [
+        "0x80"
+      ],
+      "stack_out": [
+        "sender#0",
+        "0x80"
+      ]
+    },
+    "379": {
+      "op": "swap"
+    },
+    "380": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "381": {
+      "subroutine": "smart_contracts.task.contract.MintSimulator.buy",
+      "params": {},
+      "block": "buy",
+      "stack_in": [],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "0"
+      ]
+    },
+    "382": {
+      "op": "bytec_2 // \"total_bought\"",
+      "defined_out": [
+        "\"total_bought\"",
+        "0"
+      ],
+      "stack_out": [
+        "0",
+        "\"total_bought\""
+      ]
+    },
+    "383": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "384": {
+      "error": "check self.total_bought exists",
+      "op": "assert // check self.total_bought exists",
+      "stack_out": [
+        "maybe_value%0#0"
+      ]
+    },
+    "385": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "maybe_value%0#0",
+        "1"
+      ]
+    },
+    "386": {
+      "op": "+",
+      "defined_out": [
+        "materialized_values%0#0"
+      ],
+      "stack_out": [
+        "materialized_values%0#0"
+      ]
+    },
+    "387": {
+      "op": "bytec_2 // \"total_bought\"",
+      "stack_out": [
+        "materialized_values%0#0",
+        "\"total_bought\""
+      ]
+    },
+    "388": {
+      "op": "swap",
+      "stack_out": [
+        "\"total_bought\"",
+        "materialized_values%0#0"
+      ]
+    },
+    "389": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "390": {
+      "op": "bytec 7 // 0x80",
+      "defined_out": [
+        "0x80"
+      ],
+      "stack_out": [
+        "0x80"
+      ]
+    },
+    "392": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "393": {
+      "subroutine": "smart_contracts.task.contract.MintSimulator.sell",
+      "params": {},
+      "block": "sell",
+      "stack_in": [],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "0"
+      ]
+    },
+    "394": {
+      "op": "bytec_3 // \"total_sold\"",
+      "defined_out": [
+        "\"total_sold\"",
+        "0"
+      ],
+      "stack_out": [
+        "0",
+        "\"total_sold\""
+      ]
+    },
+    "395": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "396": {
+      "error": "check self.total_sold exists",
+      "op": "assert // check self.total_sold exists",
+      "stack_out": [
+        "maybe_value%0#0"
+      ]
+    },
+    "397": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "maybe_value%0#0",
+        "1"
+      ]
+    },
+    "398": {
+      "op": "+",
+      "defined_out": [
+        "materialized_values%0#0"
+      ],
+      "stack_out": [
+        "materialized_values%0#0"
+      ]
+    },
+    "399": {
+      "op": "bytec_3 // \"total_sold\"",
+      "stack_out": [
+        "materialized_values%0#0",
+        "\"total_sold\""
+      ]
+    },
+    "400": {
+      "op": "swap",
+      "stack_out": [
+        "\"total_sold\"",
+        "materialized_values%0#0"
+      ]
+    },
+    "401": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "402": {
+      "op": "bytec 7 // 0x80",
+      "defined_out": [
+        "0x80"
+      ],
+      "stack_out": [
+        "0x80"
+      ]
+    },
+    "404": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "405": {
+      "subroutine": "smart_contracts.task.contract.MintSimulator.get_total_minted",
+      "params": {},
+      "block": "get_total_minted",
+      "stack_in": [],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "0"
+      ]
+    },
+    "406": {
+      "op": "bytec_1 // \"total_minted\"",
+      "defined_out": [
+        "\"total_minted\"",
+        "0"
+      ],
+      "stack_out": [
+        "0",
+        "\"total_minted\""
+      ]
+    },
+    "407": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "408": {
+      "error": "check self.total_minted exists",
+      "op": "assert // check self.total_minted exists",
+      "stack_out": [
+        "maybe_value%0#0"
+      ]
+    },
+    "409": {
+      "op": "itob",
+      "defined_out": [
+        "val_as_bytes%0#0"
+      ],
+      "stack_out": [
+        "val_as_bytes%0#0"
+      ]
+    },
+    "410": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "411": {
+      "subroutine": "smart_contracts.task.contract.MintSimulator.get_total_bought",
+      "params": {},
+      "block": "get_total_bought",
+      "stack_in": [],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "0"
+      ]
+    },
+    "412": {
+      "op": "bytec_2 // \"total_bought\"",
+      "defined_out": [
+        "\"total_bought\"",
+        "0"
+      ],
+      "stack_out": [
+        "0",
+        "\"total_bought\""
+      ]
+    },
+    "413": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "414": {
+      "error": "check self.total_bought exists",
+      "op": "assert // check self.total_bought exists",
+      "stack_out": [
+        "maybe_value%0#0"
+      ]
+    },
+    "415": {
+      "op": "itob",
+      "defined_out": [
+        "val_as_bytes%0#0"
+      ],
+      "stack_out": [
+        "val_as_bytes%0#0"
+      ]
+    },
+    "416": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "417": {
+      "subroutine": "smart_contracts.task.contract.MintSimulator.get_total_sold",
+      "params": {},
+      "block": "get_total_sold",
+      "stack_in": [],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "0"
+      ]
+    },
+    "418": {
+      "op": "bytec_3 // \"total_sold\"",
+      "defined_out": [
+        "\"total_sold\"",
+        "0"
+      ],
+      "stack_out": [
+        "0",
+        "\"total_sold\""
+      ]
+    },
+    "419": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "420": {
+      "error": "check self.total_sold exists",
+      "op": "assert // check self.total_sold exists",
+      "stack_out": [
+        "maybe_value%0#0"
+      ]
+    },
+    "421": {
+      "op": "itob",
+      "defined_out": [
+        "val_as_bytes%0#0"
+      ],
+      "stack_out": [
+        "val_as_bytes%0#0"
+      ]
+    },
+    "422": {
+      "retsub": true,
+      "op": "retsub"
+    }
+  }
+}
