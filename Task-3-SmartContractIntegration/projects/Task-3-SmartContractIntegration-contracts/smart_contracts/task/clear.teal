@@ -1,5 +1,0 @@
-#pragma version 8
-
-// Clear program - always approve
-int 1
-return 
