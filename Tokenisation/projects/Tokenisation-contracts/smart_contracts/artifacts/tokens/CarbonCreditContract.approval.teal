@@ -1,0 +1,983 @@
+#pragma version 10
+#pragma typetrack false
+
+// smart_contracts.tokens.contract.CarbonCreditContract.__algopy_entrypoint_with_init() -> uint64:
+main:
+    intcblock 0 1 86400
+    bytecblock "balance" 0x151f7c75 "total_supply" "mint_count" "redeemed" "token_asset_id" "manager" "carbon_credit_interval" 0x00 "last_mint" "freeze" "clawback" "whitelist" "opted_in" "last_mint_time"
+    // smart_contracts/tokens/contract.py:4
+    // class CarbonCreditContract(ARC4Contract):
+    txn NumAppArgs
+    bz main_bare_routing@19
+    pushbytess 0x9db17105 0xa3d80f42 0xa599a66e 0xdf1fa75a 0xe1aa9183 0x0380e565 0xf89dd67d 0x960b60e4 0xca881976 0x46909355 0xa8b577d2 0x4a5672f7 0xab76d5a4 0x6d273d67 // method "initialize(account,account,account,account,uint64,string,string,uint64,string)uint64", method "set_whitelist(account)void", method "opt_in_user(asset)void", method "is_user_opted_in(account)bool", method "mint_token(uint64,account)void", method "transfer_token(uint64,account)void", method "redeem_token(uint64)void", method "recover_token(string)void", method "get_balance(account)uint64", method "get_total_supply()uint64", method "freeze_account(account)void", method "clawback_tokens(account,uint64)void", method "get_user_redemptions(account)uint64", method "get_user_mint_count(account)uint64"
+    txna ApplicationArgs 0
+    match main_initialize_route@5 main_set_whitelist_route@6 main_opt_in_user_route@7 main_is_user_opted_in_route@8 main_mint_token_route@9 main_transfer_token_route@10 main_redeem_token_route@11 main_recover_token_route@12 main_get_balance_route@13 main_get_total_supply_route@14 main_freeze_account_route@15 main_clawback_tokens_route@16 main_get_user_redemptions_route@17 main_get_user_mint_count_route@18
+
+main_after_if_else@21:
+    // smart_contracts/tokens/contract.py:4
+    // class CarbonCreditContract(ARC4Contract):
+    intc_0 // 0
+    return
+
+main_get_user_mint_count_route@18:
+    // smart_contracts/tokens/contract.py:159
+    // @abimethod
+    txn OnCompletion
+    !
+    assert // OnCompletion is not NoOp
+    txn ApplicationID
+    assert // can only call when not creating
+    // smart_contracts/tokens/contract.py:4
+    // class CarbonCreditContract(ARC4Contract):
+    txna ApplicationArgs 1
+    btoi
+    txnas Accounts
+    // smart_contracts/tokens/contract.py:159
+    // @abimethod
+    callsub get_user_mint_count
+    itob
+    bytec_1 // 0x151f7c75
+    swap
+    concat
+    log
+    intc_1 // 1
+    return
+
+main_get_user_redemptions_route@17:
+    // smart_contracts/tokens/contract.py:155
+    // @abimethod
+    txn OnCompletion
+    !
+    assert // OnCompletion is not NoOp
+    txn ApplicationID
+    assert // can only call when not creating
+    // smart_contracts/tokens/contract.py:4
+    // class CarbonCreditContract(ARC4Contract):
+    txna ApplicationArgs 1
+    btoi
+    txnas Accounts
+    // smart_contracts/tokens/contract.py:155
+    // @abimethod
+    callsub get_user_redemptions
+    itob
+    bytec_1 // 0x151f7c75
+    swap
+    concat
+    log
+    intc_1 // 1
+    return
+
+main_clawback_tokens_route@16:
+    // smart_contracts/tokens/contract.py:150
+    // @abimethod
+    txn OnCompletion
+    !
+    assert // OnCompletion is not NoOp
+    txn ApplicationID
+    assert // can only call when not creating
+    // smart_contracts/tokens/contract.py:4
+    // class CarbonCreditContract(ARC4Contract):
+    txna ApplicationArgs 1
+    btoi
+    txnas Accounts
+    txna ApplicationArgs 2
+    btoi
+    // smart_contracts/tokens/contract.py:150
+    // @abimethod
+    callsub clawback_tokens
+    intc_1 // 1
+    return
+
+main_freeze_account_route@15:
+    // smart_contracts/tokens/contract.py:145
+    // @abimethod
+    txn OnCompletion
+    !
+    assert // OnCompletion is not NoOp
+    txn ApplicationID
+    assert // can only call when not creating
+    // smart_contracts/tokens/contract.py:4
+    // class CarbonCreditContract(ARC4Contract):
+    txna ApplicationArgs 1
+    btoi
+    txnas Accounts
+    // smart_contracts/tokens/contract.py:145
+    // @abimethod
+    callsub freeze_account
+    intc_1 // 1
+    return
+
+main_get_total_supply_route@14:
+    // smart_contracts/tokens/contract.py:141
+    // @abimethod
+    txn OnCompletion
+    !
+    assert // OnCompletion is not NoOp
+    txn ApplicationID
+    assert // can only call when not creating
+    callsub get_total_supply
+    itob
+    bytec_1 // 0x151f7c75
+    swap
+    concat
+    log
+    intc_1 // 1
+    return
+
+main_get_balance_route@13:
+    // smart_contracts/tokens/contract.py:137
+    // @abimethod
+    txn OnCompletion
+    !
+    assert // OnCompletion is not NoOp
+    txn ApplicationID
+    assert // can only call when not creating
+    // smart_contracts/tokens/contract.py:4
+    // class CarbonCreditContract(ARC4Contract):
+    txna ApplicationArgs 1
+    btoi
+    txnas Accounts
+    // smart_contracts/tokens/contract.py:137
+    // @abimethod
+    callsub get_balance
+    itob
+    bytec_1 // 0x151f7c75
+    swap
+    concat
+    log
+    intc_1 // 1
+    return
+
+main_recover_token_route@12:
+    // smart_contracts/tokens/contract.py:124
+    // @abimethod
+    txn OnCompletion
+    !
+    assert // OnCompletion is not NoOp
+    txn ApplicationID
+    assert // can only call when not creating
+    // smart_contracts/tokens/contract.py:4
+    // class CarbonCreditContract(ARC4Contract):
+    txna ApplicationArgs 1
+    extract 2 0
+    // smart_contracts/tokens/contract.py:124
+    // @abimethod
+    callsub recover_token
+    intc_1 // 1
+    return
+
+main_redeem_token_route@11:
+    // smart_contracts/tokens/contract.py:113
+    // @abimethod
+    txn OnCompletion
+    !
+    assert // OnCompletion is not NoOp
+    txn ApplicationID
+    assert // can only call when not creating
+    // smart_contracts/tokens/contract.py:4
+    // class CarbonCreditContract(ARC4Contract):
+    txna ApplicationArgs 1
+    btoi
+    // smart_contracts/tokens/contract.py:113
+    // @abimethod
+    callsub redeem_token
+    intc_1 // 1
+    return
+
+main_transfer_token_route@10:
+    // smart_contracts/tokens/contract.py:99
+    // @abimethod
+    txn OnCompletion
+    !
+    assert // OnCompletion is not NoOp
+    txn ApplicationID
+    assert // can only call when not creating
+    // smart_contracts/tokens/contract.py:4
+    // class CarbonCreditContract(ARC4Contract):
+    txna ApplicationArgs 1
+    btoi
+    txna ApplicationArgs 2
+    btoi
+    txnas Accounts
+    // smart_contracts/tokens/contract.py:99
+    // @abimethod
+    callsub transfer_token
+    intc_1 // 1
+    return
+
+main_mint_token_route@9:
+    // smart_contracts/tokens/contract.py:80
+    // @abimethod
+    txn OnCompletion
+    !
+    assert // OnCompletion is not NoOp
+    txn ApplicationID
+    assert // can only call when not creating
+    // smart_contracts/tokens/contract.py:4
+    // class CarbonCreditContract(ARC4Contract):
+    txna ApplicationArgs 1
+    btoi
+    txna ApplicationArgs 2
+    btoi
+    txnas Accounts
+    // smart_contracts/tokens/contract.py:80
+    // @abimethod
+    callsub mint_token
+    intc_1 // 1
+    return
+
+main_is_user_opted_in_route@8:
+    // smart_contracts/tokens/contract.py:75
+    // @abimethod(readonly=True)
+    txn OnCompletion
+    !
+    assert // OnCompletion is not NoOp
+    txn ApplicationID
+    assert // can only call when not creating
+    // smart_contracts/tokens/contract.py:4
+    // class CarbonCreditContract(ARC4Contract):
+    txna ApplicationArgs 1
+    btoi
+    txnas Accounts
+    // smart_contracts/tokens/contract.py:75
+    // @abimethod(readonly=True)
+    callsub is_user_opted_in
+    bytec_1 // 0x151f7c75
+    swap
+    concat
+    log
+    intc_1 // 1
+    return
+
+main_opt_in_user_route@7:
+    // smart_contracts/tokens/contract.py:54
+    // @abimethod
+    txn OnCompletion
+    !
+    assert // OnCompletion is not NoOp
+    txn ApplicationID
+    assert // can only call when not creating
+    // smart_contracts/tokens/contract.py:4
+    // class CarbonCreditContract(ARC4Contract):
+    txna ApplicationArgs 1
+    btoi
+    txnas Assets
+    // smart_contracts/tokens/contract.py:54
+    // @abimethod
+    callsub opt_in_user
+    intc_1 // 1
+    return
+
+main_set_whitelist_route@6:
+    // smart_contracts/tokens/contract.py:49
+    // @abimethod
+    txn OnCompletion
+    !
+    assert // OnCompletion is not NoOp
+    txn ApplicationID
+    assert // can only call when not creating
+    // smart_contracts/tokens/contract.py:4
+    // class CarbonCreditContract(ARC4Contract):
+    txna ApplicationArgs 1
+    btoi
+    txnas Accounts
+    // smart_contracts/tokens/contract.py:49
+    // @abimethod
+    callsub set_whitelist
+    intc_1 // 1
+    return
+
+main_initialize_route@5:
+    // smart_contracts/tokens/contract.py:25
+    // @abimethod
+    txn OnCompletion
+    !
+    assert // OnCompletion is not NoOp
+    txn ApplicationID
+    assert // can only call when not creating
+    // smart_contracts/tokens/contract.py:4
+    // class CarbonCreditContract(ARC4Contract):
+    txna ApplicationArgs 1
+    btoi
+    txnas Accounts
+    txna ApplicationArgs 2
+    btoi
+    txnas Accounts
+    txna ApplicationArgs 3
+    btoi
+    txnas Accounts
+    txna ApplicationArgs 4
+    btoi
+    txnas Accounts
+    txna ApplicationArgs 5
+    btoi
+    txna ApplicationArgs 6
+    extract 2 0
+    txna ApplicationArgs 7
+    extract 2 0
+    txna ApplicationArgs 8
+    btoi
+    txna ApplicationArgs 9
+    extract 2 0
+    // smart_contracts/tokens/contract.py:25
+    // @abimethod
+    callsub initialize
+    itob
+    bytec_1 // 0x151f7c75
+    swap
+    concat
+    log
+    intc_1 // 1
+    return
+
+main_bare_routing@19:
+    // smart_contracts/tokens/contract.py:4
+    // class CarbonCreditContract(ARC4Contract):
+    txn OnCompletion
+    bnz main_after_if_else@21
+    txn ApplicationID
+    !
+    assert // can only call when creating
+    intc_1 // 1
+    return
+
+
+// smart_contracts.tokens.contract.CarbonCreditContract.initialize(manager: bytes, reserve: bytes, freeze: bytes, clawback: bytes, total_supply: uint64, asset_name: bytes, unit_name: bytes, decimals: uint64, url: bytes) -> uint64:
+initialize:
+    // smart_contracts/tokens/contract.py:25-37
+    // @abimethod
+    // def initialize(
+    //     self,
+    //     manager: Account,
+    //     reserve: Account,
+    //     freeze: Account,
+    //     clawback: Account,
+    //     total_supply: UInt64,
+    //     asset_name: String,
+    //     unit_name: String,
+    //     decimals: UInt64,
+    //     url: String
+    // ) -> UInt64:
+    proto 9 1
+    // smart_contracts/tokens/contract.py:38
+    // assert Txn.sender == Global.creator_address, "Only creator can initialize"
+    txn Sender
+    global CreatorAddress
+    ==
+    assert // Only creator can initialize
+    // smart_contracts/tokens/contract.py:39
+    // assert self.token_asset_id.get(UInt64(0)) == UInt64(0), "Already initialized"
+    intc_0 // 0
+    bytec 5 // "token_asset_id"
+    app_global_get_ex
+    intc_0 // 0
+    cover 2
+    select
+    !
+    assert // Already initialized
+    // smart_contracts/tokens/contract.py:41
+    // self.token_asset_id.value = UInt64(1)
+    bytec 5 // "token_asset_id"
+    intc_1 // 1
+    app_global_put
+    // smart_contracts/tokens/contract.py:42
+    // self.total_supply.value = total_supply
+    bytec_2 // "total_supply"
+    frame_dig -5
+    app_global_put
+    // smart_contracts/tokens/contract.py:43
+    // self.manager.value = manager
+    bytec 6 // "manager"
+    frame_dig -9
+    app_global_put
+    // smart_contracts/tokens/contract.py:44
+    // self.reserve.value = reserve
+    pushbytes "reserve"
+    frame_dig -8
+    app_global_put
+    // smart_contracts/tokens/contract.py:45
+    // self.freeze.value = freeze
+    bytec 10 // "freeze"
+    frame_dig -7
+    app_global_put
+    // smart_contracts/tokens/contract.py:46
+    // self.clawback.value = clawback
+    bytec 11 // "clawback"
+    frame_dig -6
+    app_global_put
+    // smart_contracts/tokens/contract.py:47
+    // self.carbon_credit_interval.value = UInt64(86400)
+    bytec 7 // "carbon_credit_interval"
+    intc_2 // 86400
+    app_global_put
+    // smart_contracts/tokens/contract.py:48
+    // return self.token_asset_id.get(UInt64(0))
+    intc_0 // 0
+    bytec 5 // "token_asset_id"
+    app_global_get_ex
+    intc_0 // 0
+    cover 2
+    select
+    retsub
+
+
+// smart_contracts.tokens.contract.CarbonCreditContract.set_whitelist(address: bytes) -> void:
+set_whitelist:
+    // smart_contracts/tokens/contract.py:49-50
+    // @abimethod
+    // def set_whitelist(self, address: Account) -> None:
+    proto 1 0
+    // smart_contracts/tokens/contract.py:51
+    // assert Txn.sender == self.manager.get(Account()), "Only manager can set whitelist"
+    txn Sender
+    global ZeroAddress
+    intc_0 // 0
+    bytec 6 // "manager"
+    app_global_get_ex
+    select
+    ==
+    assert // Only manager can set whitelist
+    // smart_contracts/tokens/contract.py:52
+    // self.whitelist.value = address
+    bytec 12 // "whitelist"
+    frame_dig -1
+    app_global_put
+    retsub
+
+
+// smart_contracts.tokens.contract.CarbonCreditContract.opt_in_user(asset: uint64) -> void:
+opt_in_user:
+    // smart_contracts/tokens/contract.py:54-55
+    // @abimethod
+    // def opt_in_user(self, asset: Asset) -> None:
+    proto 1 0
+    // smart_contracts/tokens/contract.py:56
+    // sender = Txn.sender
+    txn Sender
+    dup
+    // smart_contracts/tokens/contract.py:58-59
+    // # Initialize user's local state if not already done
+    // if not self.opted_in.get(sender, Bool(False)):
+    intc_0 // 0
+    bytec 13 // "opted_in"
+    app_local_get_ex
+    bytec 8 // 0x00
+    cover 2
+    select
+    bytec 8 // 0x00
+    ==
+    bz opt_in_user_after_if_else@2
+    // smart_contracts/tokens/contract.py:60
+    // self.user_balance[sender] = UInt64(0)
+    frame_dig 0
+    dup
+    bytec_0 // "balance"
+    intc_0 // 0
+    app_local_put
+    // smart_contracts/tokens/contract.py:61
+    // self.user_last_mint[sender] = UInt64(0)
+    dup
+    bytec 9 // "last_mint"
+    intc_0 // 0
+    app_local_put
+    // smart_contracts/tokens/contract.py:62
+    // self.user_mint_count[sender] = UInt64(0)
+    dup
+    bytec_3 // "mint_count"
+    intc_0 // 0
+    app_local_put
+    // smart_contracts/tokens/contract.py:63
+    // self.user_redemption_count[sender] = UInt64(0)
+    dup
+    bytec 4 // "redeemed"
+    intc_0 // 0
+    app_local_put
+    // smart_contracts/tokens/contract.py:64
+    // self.user_token_history[sender] = UInt64(0)
+    dup
+    pushbytes "history"
+    intc_0 // 0
+    app_local_put
+    // smart_contracts/tokens/contract.py:65
+    // self.opted_in[sender] = Bool(True)
+    bytec 13 // "opted_in"
+    pushbytes 0x80
+    app_local_put
+
+opt_in_user_after_if_else@2:
+    // smart_contracts/tokens/contract.py:67-73
+    // # Create asset opt-in transaction
+    // itxn.AssetTransfer(
+    //     asset_receiver=sender,
+    //     xfer_asset=asset,
+    //     asset_amount=UInt64(0),
+    //     fee=UInt64(0)
+    // ).submit()
+    itxn_begin
+    // smart_contracts/tokens/contract.py:71
+    // asset_amount=UInt64(0),
+    intc_0 // 0
+    itxn_field AssetAmount
+    frame_dig -1
+    itxn_field XferAsset
+    frame_dig 0
+    itxn_field AssetReceiver
+    // smart_contracts/tokens/contract.py:67-68
+    // # Create asset opt-in transaction
+    // itxn.AssetTransfer(
+    pushint 4 // axfer
+    itxn_field TypeEnum
+    // smart_contracts/tokens/contract.py:72
+    // fee=UInt64(0)
+    intc_0 // 0
+    itxn_field Fee
+    // smart_contracts/tokens/contract.py:67-73
+    // # Create asset opt-in transaction
+    // itxn.AssetTransfer(
+    //     asset_receiver=sender,
+    //     xfer_asset=asset,
+    //     asset_amount=UInt64(0),
+    //     fee=UInt64(0)
+    // ).submit()
+    itxn_submit
+    retsub
+
+
+// smart_contracts.tokens.contract.CarbonCreditContract.is_user_opted_in(user: bytes) -> bytes:
+is_user_opted_in:
+    // smart_contracts/tokens/contract.py:75-76
+    // @abimethod(readonly=True)
+    // def is_user_opted_in(self, user: Account) -> Bool:
+    proto 1 1
+    // smart_contracts/tokens/contract.py:77-78
+    // # Check if the user is opted in to the application
+    // return Bool(op.app_opted_in(user, Global.current_application_id))
+    frame_dig -1
+    global CurrentApplicationID
+    app_opted_in
+    bytec 8 // 0x00
+    intc_0 // 0
+    uncover 2
+    setbit
+    retsub
+
+
+// smart_contracts.tokens.contract.CarbonCreditContract.mint_token(amount: uint64, receiver: bytes) -> void:
+mint_token:
+    // smart_contracts/tokens/contract.py:80-81
+    // @abimethod
+    // def mint_token(self, amount: UInt64, receiver: Account) -> None:
+    proto 2 0
+    // smart_contracts/tokens/contract.py:82-83
+    // # Ensure receiver is opted in to the application
+    // assert op.app_opted_in(receiver, Global.current_application_id), "Receiver not opted in"
+    frame_dig -1
+    global CurrentApplicationID
+    app_opted_in
+    assert // Receiver not opted in
+    // smart_contracts/tokens/contract.py:84
+    // assert Txn.sender == self.manager.get(Account()), "Only manager can mint"
+    txn Sender
+    global ZeroAddress
+    intc_0 // 0
+    bytec 6 // "manager"
+    app_global_get_ex
+    select
+    ==
+    assert // Only manager can mint
+    // smart_contracts/tokens/contract.py:85
+    // assert amount > UInt64(0), "Amount must be positive"
+    frame_dig -2
+    assert // Amount must be positive
+    // smart_contracts/tokens/contract.py:87
+    // current_time = Global.latest_timestamp
+    global LatestTimestamp
+    // smart_contracts/tokens/contract.py:88
+    // last_mint = self.last_mint_time.get(UInt64(0))
+    intc_0 // 0
+    bytec 14 // "last_mint_time"
+    app_global_get_ex
+    intc_0 // 0
+    cover 2
+    select
+    // smart_contracts/tokens/contract.py:89
+    // interval = self.carbon_credit_interval.get(UInt64(86400))  # fallback default
+    intc_0 // 0
+    bytec 7 // "carbon_credit_interval"
+    app_global_get_ex
+    intc_2 // 86400
+    cover 2
+    select
+    // smart_contracts/tokens/contract.py:90
+    // assert current_time >= last_mint + interval, "Mint cooldown active"
+    +
+    dig 1
+    <=
+    assert // Mint cooldown active
+    // smart_contracts/tokens/contract.py:92
+    // new_supply = self.total_supply.get(UInt64(0)) + amount
+    intc_0 // 0
+    bytec_2 // "total_supply"
+    app_global_get_ex
+    intc_0 // 0
+    cover 2
+    select
+    frame_dig -2
+    +
+    // smart_contracts/tokens/contract.py:93
+    // self.total_supply.value = new_supply
+    bytec_2 // "total_supply"
+    swap
+    app_global_put
+    // smart_contracts/tokens/contract.py:94
+    // self.last_mint_time.value = current_time
+    bytec 14 // "last_mint_time"
+    swap
+    app_global_put
+    // smart_contracts/tokens/contract.py:96
+    // balance = self.user_balance.get(receiver, UInt64(0))
+    frame_dig -1
+    intc_0 // 0
+    bytec_0 // "balance"
+    app_local_get_ex
+    intc_0 // 0
+    cover 2
+    select
+    // smart_contracts/tokens/contract.py:97
+    // self.user_balance[receiver] = balance + amount
+    frame_dig -2
+    +
+    frame_dig -1
+    bytec_0 // "balance"
+    uncover 2
+    app_local_put
+    retsub
+
+
+// smart_contracts.tokens.contract.CarbonCreditContract.transfer_token(amount: uint64, receiver: bytes) -> void:
+transfer_token:
+    // smart_contracts/tokens/contract.py:99-100
+    // @abimethod
+    // def transfer_token(self, amount: UInt64, receiver: Account) -> None:
+    proto 2 0
+    // smart_contracts/tokens/contract.py:101
+    // sender = Txn.sender
+    txn Sender
+    // smart_contracts/tokens/contract.py:102
+    // whitelist = self.whitelist.get(Account())
+    global ZeroAddress
+    intc_0 // 0
+    bytec 12 // "whitelist"
+    app_global_get_ex
+    select
+    dup
+    // smart_contracts/tokens/contract.py:103
+    // if whitelist:
+    global ZeroAddress
+    !=
+    bz transfer_token_after_if_else@6
+    // smart_contracts/tokens/contract.py:104
+    // assert sender == whitelist or receiver == whitelist, "Address not whitelisted"
+    frame_dig 0
+    frame_dig 1
+    ==
+    bnz transfer_token_bool_true@3
+    frame_dig -1
+    frame_dig 1
+    ==
+    bz transfer_token_bool_false@4
+
+transfer_token_bool_true@3:
+    intc_1 // 1
+
+transfer_token_bool_merge@5:
+    // smart_contracts/tokens/contract.py:104
+    // assert sender == whitelist or receiver == whitelist, "Address not whitelisted"
+    assert // Address not whitelisted
+
+transfer_token_after_if_else@6:
+    // smart_contracts/tokens/contract.py:106
+    // sender_balance = self.user_balance.get(sender, UInt64(0))
+    frame_dig 0
+    dup
+    intc_0 // 0
+    bytec_0 // "balance"
+    app_local_get_ex
+    intc_0 // 0
+    cover 2
+    select
+    // smart_contracts/tokens/contract.py:107
+    // assert sender_balance >= amount, "Insufficient balance"
+    dup
+    frame_dig -2
+    >=
+    assert // Insufficient balance
+    // smart_contracts/tokens/contract.py:109
+    // receiver_balance = self.user_balance.get(receiver, UInt64(0))
+    frame_dig -1
+    intc_0 // 0
+    bytec_0 // "balance"
+    app_local_get_ex
+    intc_0 // 0
+    cover 2
+    select
+    // smart_contracts/tokens/contract.py:110
+    // self.user_balance[sender] = sender_balance - amount
+    swap
+    frame_dig -2
+    -
+    uncover 2
+    bytec_0 // "balance"
+    uncover 2
+    app_local_put
+    // smart_contracts/tokens/contract.py:111
+    // self.user_balance[receiver] = receiver_balance + amount
+    frame_dig -2
+    +
+    frame_dig -1
+    bytec_0 // "balance"
+    uncover 2
+    app_local_put
+    retsub
+
+transfer_token_bool_false@4:
+    intc_0 // 0
+    b transfer_token_bool_merge@5
+
+
+// smart_contracts.tokens.contract.CarbonCreditContract.redeem_token(amount: uint64) -> void:
+redeem_token:
+    // smart_contracts/tokens/contract.py:113-114
+    // @abimethod
+    // def redeem_token(self, amount: UInt64) -> None:
+    proto 1 0
+    // smart_contracts/tokens/contract.py:115
+    // sender = Txn.sender
+    txn Sender
+    // smart_contracts/tokens/contract.py:116
+    // balance = self.user_balance.get(sender, UInt64(0))
+    dup
+    intc_0 // 0
+    bytec_0 // "balance"
+    app_local_get_ex
+    intc_0 // 0
+    cover 2
+    select
+    // smart_contracts/tokens/contract.py:117
+    // assert balance >= amount, "Insufficient balance"
+    dup
+    frame_dig -1
+    >=
+    assert // Insufficient balance
+    // smart_contracts/tokens/contract.py:119
+    // self.user_balance[sender] = balance - amount
+    frame_dig -1
+    -
+    dig 1
+    bytec_0 // "balance"
+    uncover 2
+    app_local_put
+    // smart_contracts/tokens/contract.py:120
+    // redeemed = self.user_redemption_count.get(sender, UInt64(0))
+    dup
+    intc_0 // 0
+    bytec 4 // "redeemed"
+    app_local_get_ex
+    intc_0 // 0
+    cover 2
+    select
+    // smart_contracts/tokens/contract.py:121
+    // self.user_redemption_count[sender] = redeemed + amount
+    frame_dig -1
+    +
+    bytec 4 // "redeemed"
+    swap
+    app_local_put
+    // smart_contracts/tokens/contract.py:122
+    // self.total_supply.value = self.total_supply.get(UInt64(0)) - amount
+    intc_0 // 0
+    bytec_2 // "total_supply"
+    app_global_get_ex
+    intc_0 // 0
+    cover 2
+    select
+    frame_dig -1
+    -
+    bytec_2 // "total_supply"
+    swap
+    app_global_put
+    retsub
+
+
+// smart_contracts.tokens.contract.CarbonCreditContract.recover_token(user_id: bytes) -> void:
+recover_token:
+    // smart_contracts/tokens/contract.py:124-125
+    // @abimethod
+    // def recover_token(self, user_id: String) -> None:
+    proto 1 0
+    // smart_contracts/tokens/contract.py:126
+    // sender = Txn.sender
+    txn Sender
+    // smart_contracts/tokens/contract.py:127
+    // mint_count = self.user_mint_count.get(sender, UInt64(0))
+    dup
+    intc_0 // 0
+    bytec_3 // "mint_count"
+    app_local_get_ex
+    intc_0 // 0
+    cover 2
+    select
+    // smart_contracts/tokens/contract.py:128
+    // last_mint = self.user_last_mint.get(sender, UInt64(0))
+    dig 1
+    intc_0 // 0
+    bytec 9 // "last_mint"
+    app_local_get_ex
+    intc_0 // 0
+    cover 2
+    select
+    // smart_contracts/tokens/contract.py:129
+    // assert mint_count < UInt64(2), "Recovery limit reached"
+    dig 1
+    pushint 2 // 2
+    <
+    assert // Recovery limit reached
+    // smart_contracts/tokens/contract.py:130
+    // cooldown = self.carbon_credit_interval.get(UInt64(86400))  # fallback to 86400 if not yet set
+    intc_0 // 0
+    bytec 7 // "carbon_credit_interval"
+    app_global_get_ex
+    intc_2 // 86400
+    cover 2
+    select
+    // smart_contracts/tokens/contract.py:131
+    // assert Global.latest_timestamp >= last_mint + cooldown, "Cooldown active"
+    global LatestTimestamp
+    cover 2
+    +
+    >=
+    assert // Cooldown active
+    // smart_contracts/tokens/contract.py:133
+    // self.mint_token(UInt64(100), sender)
+    pushint 100 // 100
+    dig 2
+    callsub mint_token
+    // smart_contracts/tokens/contract.py:134
+    // self.user_mint_count[sender] = mint_count + UInt64(1)
+    intc_1 // 1
+    +
+    dig 1
+    bytec_3 // "mint_count"
+    uncover 2
+    app_local_put
+    // smart_contracts/tokens/contract.py:135
+    // self.user_last_mint[sender] = Global.latest_timestamp
+    bytec 9 // "last_mint"
+    global LatestTimestamp
+    app_local_put
+    retsub
+
+
+// smart_contracts.tokens.contract.CarbonCreditContract.get_balance(account: bytes) -> uint64:
+get_balance:
+    // smart_contracts/tokens/contract.py:137-138
+    // @abimethod
+    // def get_balance(self, account: Account) -> UInt64:
+    proto 1 1
+    // smart_contracts/tokens/contract.py:139
+    // return self.user_balance.get(account, UInt64(0))
+    frame_dig -1
+    intc_0 // 0
+    bytec_0 // "balance"
+    app_local_get_ex
+    intc_0 // 0
+    cover 2
+    select
+    retsub
+
+
+// smart_contracts.tokens.contract.CarbonCreditContract.get_total_supply() -> uint64:
+get_total_supply:
+    // smart_contracts/tokens/contract.py:143
+    // return self.total_supply.get(UInt64(0))
+    intc_0 // 0
+    bytec_2 // "total_supply"
+    app_global_get_ex
+    intc_0 // 0
+    cover 2
+    select
+    retsub
+
+
+// smart_contracts.tokens.contract.CarbonCreditContract.freeze_account(target: bytes) -> void:
+freeze_account:
+    // smart_contracts/tokens/contract.py:145-146
+    // @abimethod
+    // def freeze_account(self, target: Account) -> None:
+    proto 1 0
+    // smart_contracts/tokens/contract.py:147
+    // assert Txn.sender == self.freeze.get(Account()), "Only freeze account"
+    txn Sender
+    global ZeroAddress
+    intc_0 // 0
+    bytec 10 // "freeze"
+    app_global_get_ex
+    select
+    ==
+    assert // Only freeze account
+    retsub
+
+
+// smart_contracts.tokens.contract.CarbonCreditContract.clawback_tokens(target: bytes, amount: uint64) -> void:
+clawback_tokens:
+    // smart_contracts/tokens/contract.py:150-151
+    // @abimethod
+    // def clawback_tokens(self, target: Account, amount: UInt64) -> None:
+    proto 2 0
+    // smart_contracts/tokens/contract.py:152
+    // assert Txn.sender == self.clawback.get(Account()), "Only clawback"
+    txn Sender
+    global ZeroAddress
+    intc_0 // 0
+    bytec 11 // "clawback"
+    app_global_get_ex
+    select
+    ==
+    assert // Only clawback
+    retsub
+
+
+// smart_contracts.tokens.contract.CarbonCreditContract.get_user_redemptions(user: bytes) -> uint64:
+get_user_redemptions:
+    // smart_contracts/tokens/contract.py:155-156
+    // @abimethod
+    // def get_user_redemptions(self, user: Account) -> UInt64:
+    proto 1 1
+    // smart_contracts/tokens/contract.py:157
+    // return self.user_redemption_count.get(user, UInt64(0))
+    frame_dig -1
+    intc_0 // 0
+    bytec 4 // "redeemed"
+    app_local_get_ex
+    intc_0 // 0
+    cover 2
+    select
+    retsub
+
+
+// smart_contracts.tokens.contract.CarbonCreditContract.get_user_mint_count(user: bytes) -> uint64:
+get_user_mint_count:
+    // smart_contracts/tokens/contract.py:159-160
+    // @abimethod
+    // def get_user_mint_count(self, user: Account) -> UInt64:
+    proto 1 1
+    // smart_contracts/tokens/contract.py:161
+    // return self.user_mint_count.get(user, UInt64(0))
+    frame_dig -1
+    intc_0 // 0
+    bytec_3 // "mint_count"
+    app_local_get_ex
+    intc_0 // 0
+    cover 2
+    select
+    retsub

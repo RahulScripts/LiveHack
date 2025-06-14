@@ -1,0 +1,5550 @@
+{
+  "version": 3,
+  "sources": [
+    "../../tokens/contract.py"
+  ],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAGA;;AAAA;;;AAAA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;;;AAAA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;;AA2JK;;AAAA;AAAA;AAAA;;AAAA;AA3JL;;;AAAA;AAAA;;AA2JK;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AAJA;;AAAA;AAAA;AAAA;;AAAA;AAvJL;;;AAAA;AAAA;;AAuJK;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AALA;;AAAA;AAAA;AAAA;;AAAA;AAlJL;;;AAAA;AAAA;;AAAA;;;AAAA;AAkJK;;;AAAA;;AALA;;AAAA;AAAA;AAAA;;AAAA;AA7IL;;;AAAA;AAAA;;AA6IK;;;AAAA;;AAJA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AAJA;;AAAA;AAAA;AAAA;;AAAA;AArIL;;;AAAA;AAAA;;AAqIK;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AAbA;;AAAA;AAAA;AAAA;;AAAA;AAxHL;;;AAAA;;;AAwHK;;;AAAA;;AAXA;;AAAA;AAAA;AAAA;;AAAA;AA7GL;;;AAAA;AA6GK;;;AAAA;;AAdA;;AAAA;AAAA;AAAA;;AAAA;AA/FL;;;AAAA;AAAA;;;AAAA;AAAA;;AA+FK;;;AAAA;;AAnBA;;AAAA;AAAA;AAAA;;AAAA;AA5EL;;;AAAA;AAAA;;;AAAA;AAAA;;AA4EK;;;AAAA;;AALA;;AAAA;AAAA;AAAA;;AAAA;AAvEL;;;AAAA;AAAA;;AAuEK;;;AAAA;AAAA;AAAA;AAAA;AAAA;;AArBA;;AAAA;AAAA;AAAA;;AAAA;AAlDL;;;AAAA;AAAA;;AAkDK;;;AAAA;;AALA;;AAAA;AAAA;AAAA;;AAAA;AA7CL;;;AAAA;AAAA;;AA6CK;;;AAAA;;AAxBA;;AAAA;AAAA;AAAA;;AAAA;AArBL;;;AAAA;AAAA;;AAAA;;;AAAA;AAAA;;AAAA;;;AAAA;AAAA;;AAAA;;;AAAA;AAAA;;AAAA;;;AAAA;AAAA;;;AAAA;;;AAAA;;;AAAA;;;AAAA;;;AAAA;AAAA;;;AAAA;;;AAqBK;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AArBL;;AAAA;;;;;;;;;AAqBA;;;AAae;;AAAc;;AAAd;AAAP;AACO;AAAA;;AAAA;AAAwB;AAAxB;;AAAA;AAAA;AAAP;AAEA;;AAA4B;AAA5B;AACA;AAAA;;AAAA;AACA;;AAAA;;AAAA;AACA;;;;;;;;;AAAA;;AAAA;AACA;;AAAA;;AAAA;AACA;;AAAA;;AAAA;AACA;;AAAoC;AAApC;AACO;AAAA;;AAAA;AAAwB;AAAxB;;AAAA;AAAP;AACR;;;AAEe;;AAA+B;;AAAjB;AAAA;;AAAA;AAAA;AAAd;AAAP;AACA;;AAAA;;AAAA;;AAER;;;AAEiB;;AAAT;AAGO;AAAA;;AAAA;AAA0B;;AAA1B;;AAAA;AAAJ;;AAAA;AAAX;;;AACY;;AAAA;AAAA;AAA4B;AAA5B;AACA;AAAA;;AAA8B;AAA9B;AACA;AAAA;AAA+B;AAA/B;AACA;AAAA;;AAAqC;AAArC;AACA;AAAA;;;;;;;;;AAAkC;AAAlC;AACA;;AAAwB;;;AAAxB;AAGJ;AAGiB;;;;;;;;;;;AAHjB;;;;AAIQ;;;AAJR;;AAOR;;;AAGoB;;AAAsB;;AAAtB;AAAL;;AAAA;AAAA;;AAAA;AAAP;AAER;;;AAGe;;AAA0B;;AAA1B;AAAP;AACO;;AAA+B;;AAAjB;AAAA;;AAAA;AAAA;AAAd;AAAP;AACA;;AAAA;AAEe;;AACH;AAAA;;AAAA;AAAwB;AAAxB;;AAAA;AACD;AAAA;;AAAA;AAAgC;AAAhC;;AAAA;AACY;AAAhB;;AAAA;AAAP;AAEa;AAAA;AAAA;AAAsB;AAAtB;;AAAA;AAAb;;AAAa;AACb;AAAA;AAAA;AACA;;AAAA;AAAA;AAEU;;AAAA;AAAA;AAAA;AAAgC;AAAhC;;AAAA;AACoB;;AAAA;AAA9B;;AAAA;AAAA;;AAAA;;AAER;;;AAEiB;;AACsB;;AAAnB;AAAA;;AAAA;AAAA;AAAA;AACT;;AAAA;AAAX;;;AACmB;;AAAA;;AAAA;AAAA;;;AAAuB;;AAAA;;AAAA;AAAvB;;;;AAAP;AAEa;;AAAA;AAAA;AAAA;AAAA;AAA8B;AAA9B;;AAAA;AACV;AAAA;;AAAA;AAAP;AAEmB;;AAAA;AAAA;AAAA;AAAgC;AAAhC;;AAAA;AACS;AAAA;;AAAA;AAA5B;;AAAA;AAAA;;AAAA;AAC8B;;AAAA;AAA9B;;AAAA;AAAA;;AAAA;;;;;;AAER;;;AAEiB;;AACC;AAAA;AAAA;AAAA;AAA8B;AAA9B;;AAAA;AACH;AAAA;;AAAA;AAAP;AAE4B;;AAAA;AAA5B;;AAAA;AAAA;;AAAA;AACW;AAAA;AAAA;;AAAA;AAAuC;AAAvC;;AAAA;AAC0B;;AAAA;AAArC;;AAAA;AAAA;AAC0B;AAAA;AAAA;AAAsB;AAAtB;;AAAA;AAAA;;AAAA;AAA1B;AAAA;AAAA;;AAER;;;AAEiB;;AACI;AAAA;AAAA;AAAA;AAAiC;AAAjC;;AAAA;AACD;;AAAA;AAAA;;AAAA;AAAgC;AAAhC;;AAAA;AACL;;AAAa;;AAAb;AAAP;AACW;AAAA;;AAAA;AAAgC;AAAhC;;AAAA;AACJ;;AAA2B;;AAAA;AAA3B;AAAP;AAEgB;;AAAhB;;AAAA;;;AAC4C;AAAb;AAA/B;;AAAA;AAAA;;AAAA;AACA;;AAA8B;;AAA9B;;AAER;;;AAEe;;AAAA;AAAA;AAAA;AAA+B;AAA/B;;AAAA;AAAP;AAIO;AAAA;AAAA;AAAsB;AAAtB;;AAAA;AAAP;AAER;;;AAEe;;AAA8B;;AAAhB;AAAA;;AAAA;AAAA;AAAd;AAAP;;AAGR;;;AAEe;;AAAgC;;AAAlB;AAAA;;AAAA;AAAA;AAAd;AAAP;;AAGR;;;AAEe;;AAAA;AAAA;;AAAA;AAAqC;AAArC;;AAAA;AAAP;AAER;;;AAEe;;AAAA;AAAA;AAAA;AAA+B;AAA/B;;AAAA;AAAP",
+  "op_pc_offset": 0,
+  "pc_events": {
+    "1": {
+      "subroutine": "smart_contracts.tokens.contract.CarbonCreditContract.__algopy_entrypoint_with_init",
+      "params": {},
+      "block": "main",
+      "stack_in": [],
+      "op": "intcblock 0 1 86400"
+    },
+    "8": {
+      "op": "bytecblock \"balance\" 0x151f7c75 \"total_supply\" \"mint_count\" \"redeemed\" \"token_asset_id\" \"manager\" \"carbon_credit_interval\" 0x00 \"last_mint\" \"freeze\" \"clawback\" \"whitelist\" \"opted_in\" \"last_mint_time\""
+    },
+    "164": {
+      "op": "txn NumAppArgs",
+      "defined_out": [
+        "tmp%0#2"
+      ],
+      "stack_out": [
+        "tmp%0#2"
+      ]
+    },
+    "166": {
+      "op": "bz main_bare_routing@19",
+      "stack_out": []
+    },
+    "169": {
+      "op": "pushbytess 0x9db17105 0xa3d80f42 0xa599a66e 0xdf1fa75a 0xe1aa9183 0x0380e565 0xf89dd67d 0x960b60e4 0xca881976 0x46909355 0xa8b577d2 0x4a5672f7 0xab76d5a4 0x6d273d67 // method \"initialize(account,account,account,account,uint64,string,string,uint64,string)uint64\", method \"set_whitelist(account)void\", method \"opt_in_user(asset)void\", method \"is_user_opted_in(account)bool\", method \"mint_token(uint64,account)void\", method \"transfer_token(uint64,account)void\", method \"redeem_token(uint64)void\", method \"recover_token(string)void\", method \"get_balance(account)uint64\", method \"get_total_supply()uint64\", method \"freeze_account(account)void\", method \"clawback_tokens(account,uint64)void\", method \"get_user_redemptions(account)uint64\", method \"get_user_mint_count(account)uint64\"",
+      "defined_out": [
+        "Method(clawback_tokens(account,uint64)void)",
+        "Method(freeze_account(account)void)",
+        "Method(get_balance(account)uint64)",
+        "Method(get_total_supply()uint64)",
+        "Method(get_user_mint_count(account)uint64)",
+        "Method(get_user_redemptions(account)uint64)",
+        "Method(initialize(account,account,account,account,uint64,string,string,uint64,string)uint64)",
+        "Method(is_user_opted_in(account)bool)",
+        "Method(mint_token(uint64,account)void)",
+        "Method(opt_in_user(asset)void)",
+        "Method(recover_token(string)void)",
+        "Method(redeem_token(uint64)void)",
+        "Method(set_whitelist(account)void)",
+        "Method(transfer_token(uint64,account)void)"
+      ],
+      "stack_out": [
+        "Method(initialize(account,account,account,account,uint64,string,string,uint64,string)uint64)",
+        "Method(set_whitelist(account)void)",
+        "Method(opt_in_user(asset)void)",
+        "Method(is_user_opted_in(account)bool)",
+        "Method(mint_token(uint64,account)void)",
+        "Method(transfer_token(uint64,account)void)",
+        "Method(redeem_token(uint64)void)",
+        "Method(recover_token(string)void)",
+        "Method(get_balance(account)uint64)",
+        "Method(get_total_supply()uint64)",
+        "Method(freeze_account(account)void)",
+        "Method(clawback_tokens(account,uint64)void)",
+        "Method(get_user_redemptions(account)uint64)",
+        "Method(get_user_mint_count(account)uint64)"
+      ]
+    },
+    "241": {
+      "op": "txna ApplicationArgs 0",
+      "defined_out": [
+        "Method(clawback_tokens(account,uint64)void)",
+        "Method(freeze_account(account)void)",
+        "Method(get_balance(account)uint64)",
+        "Method(get_total_supply()uint64)",
+        "Method(get_user_mint_count(account)uint64)",
+        "Method(get_user_redemptions(account)uint64)",
+        "Method(initialize(account,account,account,account,uint64,string,string,uint64,string)uint64)",
+        "Method(is_user_opted_in(account)bool)",
+        "Method(mint_token(uint64,account)void)",
+        "Method(opt_in_user(asset)void)",
+        "Method(recover_token(string)void)",
+        "Method(redeem_token(uint64)void)",
+        "Method(set_whitelist(account)void)",
+        "Method(transfer_token(uint64,account)void)",
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "Method(initialize(account,account,account,account,uint64,string,string,uint64,string)uint64)",
+        "Method(set_whitelist(account)void)",
+        "Method(opt_in_user(asset)void)",
+        "Method(is_user_opted_in(account)bool)",
+        "Method(mint_token(uint64,account)void)",
+        "Method(transfer_token(uint64,account)void)",
+        "Method(redeem_token(uint64)void)",
+        "Method(recover_token(string)void)",
+        "Method(get_balance(account)uint64)",
+        "Method(get_total_supply()uint64)",
+        "Method(freeze_account(account)void)",
+        "Method(clawback_tokens(account,uint64)void)",
+        "Method(get_user_redemptions(account)uint64)",
+        "Method(get_user_mint_count(account)uint64)",
+        "tmp%2#0"
+      ]
+    },
+    "244": {
+      "op": "match main_initialize_route@5 main_set_whitelist_route@6 main_opt_in_user_route@7 main_is_user_opted_in_route@8 main_mint_token_route@9 main_transfer_token_route@10 main_redeem_token_route@11 main_recover_token_route@12 main_get_balance_route@13 main_get_total_supply_route@14 main_freeze_account_route@15 main_clawback_tokens_route@16 main_get_user_redemptions_route@17 main_get_user_mint_count_route@18",
+      "stack_out": []
+    },
+    "274": {
+      "block": "main_after_if_else@21",
+      "stack_in": [],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "tmp%0#1"
+      ]
+    },
+    "275": {
+      "op": "return",
+      "stack_out": []
+    },
+    "276": {
+      "block": "main_get_user_mint_count_route@18",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%101#0"
+      ],
+      "stack_out": [
+        "tmp%101#0"
+      ]
+    },
+    "278": {
+      "op": "!",
+      "defined_out": [
+        "tmp%102#0"
+      ],
+      "stack_out": [
+        "tmp%102#0"
+      ]
+    },
+    "279": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "280": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%103#0"
+      ],
+      "stack_out": [
+        "tmp%103#0"
+      ]
+    },
+    "282": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "283": {
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "reinterpret_bytes[1]%13#0"
+      ],
+      "stack_out": [
+        "reinterpret_bytes[1]%13#0"
+      ]
+    },
+    "286": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%105#0"
+      ],
+      "stack_out": [
+        "tmp%105#0"
+      ]
+    },
+    "287": {
+      "op": "txnas Accounts",
+      "defined_out": [
+        "tmp%106#0"
+      ],
+      "stack_out": [
+        "tmp%106#0"
+      ]
+    },
+    "289": {
+      "callsub": "smart_contracts.tokens.contract.CarbonCreditContract.get_user_mint_count",
+      "op": "callsub get_user_mint_count",
+      "defined_out": [
+        "to_encode%4#0"
+      ],
+      "stack_out": [
+        "to_encode%4#0"
+      ]
+    },
+    "292": {
+      "op": "itob",
+      "defined_out": [
+        "val_as_bytes%4#0"
+      ],
+      "stack_out": [
+        "val_as_bytes%4#0"
+      ]
+    },
+    "293": {
+      "op": "bytec_1 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "val_as_bytes%4#0"
+      ],
+      "stack_out": [
+        "val_as_bytes%4#0",
+        "0x151f7c75"
+      ]
+    },
+    "294": {
+      "op": "swap",
+      "stack_out": [
+        "0x151f7c75",
+        "val_as_bytes%4#0"
+      ]
+    },
+    "295": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%107#0"
+      ],
+      "stack_out": [
+        "tmp%107#0"
+      ]
+    },
+    "296": {
+      "op": "log",
+      "stack_out": []
+    },
+    "297": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "tmp%0#1"
+      ]
+    },
+    "298": {
+      "op": "return",
+      "stack_out": []
+    },
+    "299": {
+      "block": "main_get_user_redemptions_route@17",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%94#0"
+      ],
+      "stack_out": [
+        "tmp%94#0"
+      ]
+    },
+    "301": {
+      "op": "!",
+      "defined_out": [
+        "tmp%95#0"
+      ],
+      "stack_out": [
+        "tmp%95#0"
+      ]
+    },
+    "302": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "303": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%96#0"
+      ],
+      "stack_out": [
+        "tmp%96#0"
+      ]
+    },
+    "305": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "306": {
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "reinterpret_bytes[1]%12#0"
+      ],
+      "stack_out": [
+        "reinterpret_bytes[1]%12#0"
+      ]
+    },
+    "309": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%98#0"
+      ],
+      "stack_out": [
+        "tmp%98#0"
+      ]
+    },
+    "310": {
+      "op": "txnas Accounts",
+      "defined_out": [
+        "tmp%99#0"
+      ],
+      "stack_out": [
+        "tmp%99#0"
+      ]
+    },
+    "312": {
+      "callsub": "smart_contracts.tokens.contract.CarbonCreditContract.get_user_redemptions",
+      "op": "callsub get_user_redemptions",
+      "defined_out": [
+        "to_encode%3#0"
+      ],
+      "stack_out": [
+        "to_encode%3#0"
+      ]
+    },
+    "315": {
+      "op": "itob",
+      "defined_out": [
+        "val_as_bytes%3#0"
+      ],
+      "stack_out": [
+        "val_as_bytes%3#0"
+      ]
+    },
+    "316": {
+      "op": "bytec_1 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "val_as_bytes%3#0"
+      ],
+      "stack_out": [
+        "val_as_bytes%3#0",
+        "0x151f7c75"
+      ]
+    },
+    "317": {
+      "op": "swap",
+      "stack_out": [
+        "0x151f7c75",
+        "val_as_bytes%3#0"
+      ]
+    },
+    "318": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%100#0"
+      ],
+      "stack_out": [
+        "tmp%100#0"
+      ]
+    },
+    "319": {
+      "op": "log",
+      "stack_out": []
+    },
+    "320": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "tmp%0#1"
+      ]
+    },
+    "321": {
+      "op": "return",
+      "stack_out": []
+    },
+    "322": {
+      "block": "main_clawback_tokens_route@16",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%87#0"
+      ],
+      "stack_out": [
+        "tmp%87#0"
+      ]
+    },
+    "324": {
+      "op": "!",
+      "defined_out": [
+        "tmp%88#0"
+      ],
+      "stack_out": [
+        "tmp%88#0"
+      ]
+    },
+    "325": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "326": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%89#0"
+      ],
+      "stack_out": [
+        "tmp%89#0"
+      ]
+    },
+    "328": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "329": {
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "reinterpret_bytes[1]%11#0"
+      ],
+      "stack_out": [
+        "reinterpret_bytes[1]%11#0"
+      ]
+    },
+    "332": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%91#0"
+      ],
+      "stack_out": [
+        "tmp%91#0"
+      ]
+    },
+    "333": {
+      "op": "txnas Accounts",
+      "defined_out": [
+        "tmp%92#0"
+      ],
+      "stack_out": [
+        "tmp%92#0"
+      ]
+    },
+    "335": {
+      "op": "txna ApplicationArgs 2",
+      "defined_out": [
+        "reinterpret_bytes[8]%5#0",
+        "tmp%92#0"
+      ],
+      "stack_out": [
+        "tmp%92#0",
+        "reinterpret_bytes[8]%5#0"
+      ]
+    },
+    "338": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%92#0",
+        "tmp%93#0"
+      ],
+      "stack_out": [
+        "tmp%92#0",
+        "tmp%93#0"
+      ]
+    },
+    "339": {
+      "callsub": "smart_contracts.tokens.contract.CarbonCreditContract.clawback_tokens",
+      "op": "callsub clawback_tokens",
+      "stack_out": []
+    },
+    "342": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "tmp%0#1"
+      ]
+    },
+    "343": {
+      "op": "return",
+      "stack_out": []
+    },
+    "344": {
+      "block": "main_freeze_account_route@15",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%81#0"
+      ],
+      "stack_out": [
+        "tmp%81#0"
+      ]
+    },
+    "346": {
+      "op": "!",
+      "defined_out": [
+        "tmp%82#0"
+      ],
+      "stack_out": [
+        "tmp%82#0"
+      ]
+    },
+    "347": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "348": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%83#0"
+      ],
+      "stack_out": [
+        "tmp%83#0"
+      ]
+    },
+    "350": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "351": {
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "reinterpret_bytes[1]%10#0"
+      ],
+      "stack_out": [
+        "reinterpret_bytes[1]%10#0"
+      ]
+    },
+    "354": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%85#0"
+      ],
+      "stack_out": [
+        "tmp%85#0"
+      ]
+    },
+    "355": {
+      "op": "txnas Accounts",
+      "defined_out": [
+        "tmp%86#0"
+      ],
+      "stack_out": [
+        "tmp%86#0"
+      ]
+    },
+    "357": {
+      "callsub": "smart_contracts.tokens.contract.CarbonCreditContract.freeze_account",
+      "op": "callsub freeze_account",
+      "stack_out": []
+    },
+    "360": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "tmp%0#1"
+      ]
+    },
+    "361": {
+      "op": "return",
+      "stack_out": []
+    },
+    "362": {
+      "block": "main_get_total_supply_route@14",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%76#0"
+      ],
+      "stack_out": [
+        "tmp%76#0"
+      ]
+    },
+    "364": {
+      "op": "!",
+      "defined_out": [
+        "tmp%77#0"
+      ],
+      "stack_out": [
+        "tmp%77#0"
+      ]
+    },
+    "365": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "366": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%78#0"
+      ],
+      "stack_out": [
+        "tmp%78#0"
+      ]
+    },
+    "368": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "369": {
+      "callsub": "smart_contracts.tokens.contract.CarbonCreditContract.get_total_supply",
+      "op": "callsub get_total_supply",
+      "defined_out": [
+        "to_encode%2#0"
+      ],
+      "stack_out": [
+        "to_encode%2#0"
+      ]
+    },
+    "372": {
+      "op": "itob",
+      "defined_out": [
+        "val_as_bytes%2#0"
+      ],
+      "stack_out": [
+        "val_as_bytes%2#0"
+      ]
+    },
+    "373": {
+      "op": "bytec_1 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "val_as_bytes%2#0"
+      ],
+      "stack_out": [
+        "val_as_bytes%2#0",
+        "0x151f7c75"
+      ]
+    },
+    "374": {
+      "op": "swap",
+      "stack_out": [
+        "0x151f7c75",
+        "val_as_bytes%2#0"
+      ]
+    },
+    "375": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%80#0"
+      ],
+      "stack_out": [
+        "tmp%80#0"
+      ]
+    },
+    "376": {
+      "op": "log",
+      "stack_out": []
+    },
+    "377": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "tmp%0#1"
+      ]
+    },
+    "378": {
+      "op": "return",
+      "stack_out": []
+    },
+    "379": {
+      "block": "main_get_balance_route@13",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%69#0"
+      ],
+      "stack_out": [
+        "tmp%69#0"
+      ]
+    },
+    "381": {
+      "op": "!",
+      "defined_out": [
+        "tmp%70#0"
+      ],
+      "stack_out": [
+        "tmp%70#0"
+      ]
+    },
+    "382": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "383": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%71#0"
+      ],
+      "stack_out": [
+        "tmp%71#0"
+      ]
+    },
+    "385": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "386": {
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "reinterpret_bytes[1]%9#0"
+      ],
+      "stack_out": [
+        "reinterpret_bytes[1]%9#0"
+      ]
+    },
+    "389": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%73#0"
+      ],
+      "stack_out": [
+        "tmp%73#0"
+      ]
+    },
+    "390": {
+      "op": "txnas Accounts",
+      "defined_out": [
+        "tmp%74#0"
+      ],
+      "stack_out": [
+        "tmp%74#0"
+      ]
+    },
+    "392": {
+      "callsub": "smart_contracts.tokens.contract.CarbonCreditContract.get_balance",
+      "op": "callsub get_balance",
+      "defined_out": [
+        "to_encode%1#0"
+      ],
+      "stack_out": [
+        "to_encode%1#0"
+      ]
+    },
+    "395": {
+      "op": "itob",
+      "defined_out": [
+        "val_as_bytes%1#0"
+      ],
+      "stack_out": [
+        "val_as_bytes%1#0"
+      ]
+    },
+    "396": {
+      "op": "bytec_1 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "val_as_bytes%1#0"
+      ],
+      "stack_out": [
+        "val_as_bytes%1#0",
+        "0x151f7c75"
+      ]
+    },
+    "397": {
+      "op": "swap",
+      "stack_out": [
+        "0x151f7c75",
+        "val_as_bytes%1#0"
+      ]
+    },
+    "398": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%75#0"
+      ],
+      "stack_out": [
+        "tmp%75#0"
+      ]
+    },
+    "399": {
+      "op": "log",
+      "stack_out": []
+    },
+    "400": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "tmp%0#1"
+      ]
+    },
+    "401": {
+      "op": "return",
+      "stack_out": []
+    },
+    "402": {
+      "block": "main_recover_token_route@12",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%63#0"
+      ],
+      "stack_out": [
+        "tmp%63#0"
+      ]
+    },
+    "404": {
+      "op": "!",
+      "defined_out": [
+        "tmp%64#0"
+      ],
+      "stack_out": [
+        "tmp%64#0"
+      ]
+    },
+    "405": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "406": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%65#0"
+      ],
+      "stack_out": [
+        "tmp%65#0"
+      ]
+    },
+    "408": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "409": {
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "tmp%67#0"
+      ],
+      "stack_out": [
+        "tmp%67#0"
+      ]
+    },
+    "412": {
+      "op": "extract 2 0",
+      "defined_out": [
+        "tmp%68#0"
+      ],
+      "stack_out": [
+        "tmp%68#0"
+      ]
+    },
+    "415": {
+      "callsub": "smart_contracts.tokens.contract.CarbonCreditContract.recover_token",
+      "op": "callsub recover_token",
+      "stack_out": []
+    },
+    "418": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "tmp%0#1"
+      ]
+    },
+    "419": {
+      "op": "return",
+      "stack_out": []
+    },
+    "420": {
+      "block": "main_redeem_token_route@11",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%58#0"
+      ],
+      "stack_out": [
+        "tmp%58#0"
+      ]
+    },
+    "422": {
+      "op": "!",
+      "defined_out": [
+        "tmp%59#0"
+      ],
+      "stack_out": [
+        "tmp%59#0"
+      ]
+    },
+    "423": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "424": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%60#0"
+      ],
+      "stack_out": [
+        "tmp%60#0"
+      ]
+    },
+    "426": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "427": {
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "reinterpret_bytes[8]%4#0"
+      ],
+      "stack_out": [
+        "reinterpret_bytes[8]%4#0"
+      ]
+    },
+    "430": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%62#0"
+      ],
+      "stack_out": [
+        "tmp%62#0"
+      ]
+    },
+    "431": {
+      "callsub": "smart_contracts.tokens.contract.CarbonCreditContract.redeem_token",
+      "op": "callsub redeem_token",
+      "stack_out": []
+    },
+    "434": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "tmp%0#1"
+      ]
+    },
+    "435": {
+      "op": "return",
+      "stack_out": []
+    },
+    "436": {
+      "block": "main_transfer_token_route@10",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%51#0"
+      ],
+      "stack_out": [
+        "tmp%51#0"
+      ]
+    },
+    "438": {
+      "op": "!",
+      "defined_out": [
+        "tmp%52#0"
+      ],
+      "stack_out": [
+        "tmp%52#0"
+      ]
+    },
+    "439": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "440": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%53#0"
+      ],
+      "stack_out": [
+        "tmp%53#0"
+      ]
+    },
+    "442": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "443": {
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "reinterpret_bytes[8]%3#0"
+      ],
+      "stack_out": [
+        "reinterpret_bytes[8]%3#0"
+      ]
+    },
+    "446": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%55#0"
+      ],
+      "stack_out": [
+        "tmp%55#0"
+      ]
+    },
+    "447": {
+      "op": "txna ApplicationArgs 2",
+      "defined_out": [
+        "reinterpret_bytes[1]%8#0",
+        "tmp%55#0"
+      ],
+      "stack_out": [
+        "tmp%55#0",
+        "reinterpret_bytes[1]%8#0"
+      ]
+    },
+    "450": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%55#0",
+        "tmp%56#0"
+      ],
+      "stack_out": [
+        "tmp%55#0",
+        "tmp%56#0"
+      ]
+    },
+    "451": {
+      "op": "txnas Accounts",
+      "defined_out": [
+        "tmp%55#0",
+        "tmp%57#0"
+      ],
+      "stack_out": [
+        "tmp%55#0",
+        "tmp%57#0"
+      ]
+    },
+    "453": {
+      "callsub": "smart_contracts.tokens.contract.CarbonCreditContract.transfer_token",
+      "op": "callsub transfer_token",
+      "stack_out": []
+    },
+    "456": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "tmp%0#1"
+      ]
+    },
+    "457": {
+      "op": "return",
+      "stack_out": []
+    },
+    "458": {
+      "block": "main_mint_token_route@9",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%44#0"
+      ],
+      "stack_out": [
+        "tmp%44#0"
+      ]
+    },
+    "460": {
+      "op": "!",
+      "defined_out": [
+        "tmp%45#0"
+      ],
+      "stack_out": [
+        "tmp%45#0"
+      ]
+    },
+    "461": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "462": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%46#0"
+      ],
+      "stack_out": [
+        "tmp%46#0"
+      ]
+    },
+    "464": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "465": {
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "reinterpret_bytes[8]%2#0"
+      ],
+      "stack_out": [
+        "reinterpret_bytes[8]%2#0"
+      ]
+    },
+    "468": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%48#0"
+      ],
+      "stack_out": [
+        "tmp%48#0"
+      ]
+    },
+    "469": {
+      "op": "txna ApplicationArgs 2",
+      "defined_out": [
+        "reinterpret_bytes[1]%7#0",
+        "tmp%48#0"
+      ],
+      "stack_out": [
+        "tmp%48#0",
+        "reinterpret_bytes[1]%7#0"
+      ]
+    },
+    "472": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%48#0",
+        "tmp%49#0"
+      ],
+      "stack_out": [
+        "tmp%48#0",
+        "tmp%49#0"
+      ]
+    },
+    "473": {
+      "op": "txnas Accounts",
+      "defined_out": [
+        "tmp%48#0",
+        "tmp%50#0"
+      ],
+      "stack_out": [
+        "tmp%48#0",
+        "tmp%50#0"
+      ]
+    },
+    "475": {
+      "callsub": "smart_contracts.tokens.contract.CarbonCreditContract.mint_token",
+      "op": "callsub mint_token",
+      "stack_out": []
+    },
+    "478": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "tmp%0#1"
+      ]
+    },
+    "479": {
+      "op": "return",
+      "stack_out": []
+    },
+    "480": {
+      "block": "main_is_user_opted_in_route@8",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%36#0"
+      ],
+      "stack_out": [
+        "tmp%36#0"
+      ]
+    },
+    "482": {
+      "op": "!",
+      "defined_out": [
+        "tmp%37#0"
+      ],
+      "stack_out": [
+        "tmp%37#0"
+      ]
+    },
+    "483": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "484": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%38#0"
+      ],
+      "stack_out": [
+        "tmp%38#0"
+      ]
+    },
+    "486": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "487": {
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "reinterpret_bytes[1]%6#0"
+      ],
+      "stack_out": [
+        "reinterpret_bytes[1]%6#0"
+      ]
+    },
+    "490": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%40#0"
+      ],
+      "stack_out": [
+        "tmp%40#0"
+      ]
+    },
+    "491": {
+      "op": "txnas Accounts",
+      "defined_out": [
+        "tmp%41#0"
+      ],
+      "stack_out": [
+        "tmp%41#0"
+      ]
+    },
+    "493": {
+      "callsub": "smart_contracts.tokens.contract.CarbonCreditContract.is_user_opted_in",
+      "op": "callsub is_user_opted_in",
+      "defined_out": [
+        "tmp%42#0"
+      ],
+      "stack_out": [
+        "tmp%42#0"
+      ]
+    },
+    "496": {
+      "op": "bytec_1 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "tmp%42#0"
+      ],
+      "stack_out": [
+        "tmp%42#0",
+        "0x151f7c75"
+      ]
+    },
+    "497": {
+      "op": "swap",
+      "stack_out": [
+        "0x151f7c75",
+        "tmp%42#0"
+      ]
+    },
+    "498": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%43#0"
+      ],
+      "stack_out": [
+        "tmp%43#0"
+      ]
+    },
+    "499": {
+      "op": "log",
+      "stack_out": []
+    },
+    "500": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "tmp%0#1"
+      ]
+    },
+    "501": {
+      "op": "return",
+      "stack_out": []
+    },
+    "502": {
+      "block": "main_opt_in_user_route@7",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%30#0"
+      ],
+      "stack_out": [
+        "tmp%30#0"
+      ]
+    },
+    "504": {
+      "op": "!",
+      "defined_out": [
+        "tmp%31#0"
+      ],
+      "stack_out": [
+        "tmp%31#0"
+      ]
+    },
+    "505": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "506": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%32#0"
+      ],
+      "stack_out": [
+        "tmp%32#0"
+      ]
+    },
+    "508": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "509": {
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "reinterpret_bytes[1]%5#0"
+      ],
+      "stack_out": [
+        "reinterpret_bytes[1]%5#0"
+      ]
+    },
+    "512": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%34#0"
+      ],
+      "stack_out": [
+        "tmp%34#0"
+      ]
+    },
+    "513": {
+      "op": "txnas Assets",
+      "defined_out": [
+        "tmp%35#0"
+      ],
+      "stack_out": [
+        "tmp%35#0"
+      ]
+    },
+    "515": {
+      "callsub": "smart_contracts.tokens.contract.CarbonCreditContract.opt_in_user",
+      "op": "callsub opt_in_user",
+      "stack_out": []
+    },
+    "518": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "tmp%0#1"
+      ]
+    },
+    "519": {
+      "op": "return",
+      "stack_out": []
+    },
+    "520": {
+      "block": "main_set_whitelist_route@6",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%24#0"
+      ],
+      "stack_out": [
+        "tmp%24#0"
+      ]
+    },
+    "522": {
+      "op": "!",
+      "defined_out": [
+        "tmp%25#0"
+      ],
+      "stack_out": [
+        "tmp%25#0"
+      ]
+    },
+    "523": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "524": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%26#0"
+      ],
+      "stack_out": [
+        "tmp%26#0"
+      ]
+    },
+    "526": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "527": {
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "reinterpret_bytes[1]%4#0"
+      ],
+      "stack_out": [
+        "reinterpret_bytes[1]%4#0"
+      ]
+    },
+    "530": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%28#0"
+      ],
+      "stack_out": [
+        "tmp%28#0"
+      ]
+    },
+    "531": {
+      "op": "txnas Accounts",
+      "defined_out": [
+        "tmp%29#0"
+      ],
+      "stack_out": [
+        "tmp%29#0"
+      ]
+    },
+    "533": {
+      "callsub": "smart_contracts.tokens.contract.CarbonCreditContract.set_whitelist",
+      "op": "callsub set_whitelist",
+      "stack_out": []
+    },
+    "536": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "tmp%0#1"
+      ]
+    },
+    "537": {
+      "op": "return",
+      "stack_out": []
+    },
+    "538": {
+      "block": "main_initialize_route@5",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "tmp%3#0"
+      ]
+    },
+    "540": {
+      "op": "!",
+      "defined_out": [
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "tmp%4#0"
+      ]
+    },
+    "541": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "542": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "tmp%5#0"
+      ]
+    },
+    "544": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "545": {
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "reinterpret_bytes[1]%0#0"
+      ],
+      "stack_out": [
+        "reinterpret_bytes[1]%0#0"
+      ]
+    },
+    "548": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%7#0"
+      ],
+      "stack_out": [
+        "tmp%7#0"
+      ]
+    },
+    "549": {
+      "op": "txnas Accounts",
+      "defined_out": [
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%8#0"
+      ]
+    },
+    "551": {
+      "op": "txna ApplicationArgs 2",
+      "defined_out": [
+        "reinterpret_bytes[1]%1#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%8#0",
+        "reinterpret_bytes[1]%1#0"
+      ]
+    },
+    "554": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%8#0",
+        "tmp%9#0"
+      ],
+      "stack_out": [
+        "tmp%8#0",
+        "tmp%9#0"
+      ]
+    },
+    "555": {
+      "op": "txnas Accounts",
+      "defined_out": [
+        "tmp%10#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%8#0",
+        "tmp%10#0"
+      ]
+    },
+    "557": {
+      "op": "txna ApplicationArgs 3",
+      "defined_out": [
+        "reinterpret_bytes[1]%2#0",
+        "tmp%10#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%8#0",
+        "tmp%10#0",
+        "reinterpret_bytes[1]%2#0"
+      ]
+    },
+    "560": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%10#0",
+        "tmp%11#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%8#0",
+        "tmp%10#0",
+        "tmp%11#0"
+      ]
+    },
+    "561": {
+      "op": "txnas Accounts",
+      "defined_out": [
+        "tmp%10#0",
+        "tmp%12#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%8#0",
+        "tmp%10#0",
+        "tmp%12#0"
+      ]
+    },
+    "563": {
+      "op": "txna ApplicationArgs 4",
+      "defined_out": [
+        "reinterpret_bytes[1]%3#0",
+        "tmp%10#0",
+        "tmp%12#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%8#0",
+        "tmp%10#0",
+        "tmp%12#0",
+        "reinterpret_bytes[1]%3#0"
+      ]
+    },
+    "566": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%10#0",
+        "tmp%12#0",
+        "tmp%13#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%8#0",
+        "tmp%10#0",
+        "tmp%12#0",
+        "tmp%13#0"
+      ]
+    },
+    "567": {
+      "op": "txnas Accounts",
+      "defined_out": [
+        "tmp%10#0",
+        "tmp%12#0",
+        "tmp%14#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%8#0",
+        "tmp%10#0",
+        "tmp%12#0",
+        "tmp%14#0"
+      ]
+    },
+    "569": {
+      "op": "txna ApplicationArgs 5",
+      "defined_out": [
+        "reinterpret_bytes[8]%0#0",
+        "tmp%10#0",
+        "tmp%12#0",
+        "tmp%14#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%8#0",
+        "tmp%10#0",
+        "tmp%12#0",
+        "tmp%14#0",
+        "reinterpret_bytes[8]%0#0"
+      ]
+    },
+    "572": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%10#0",
+        "tmp%12#0",
+        "tmp%14#0",
+        "tmp%15#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%8#0",
+        "tmp%10#0",
+        "tmp%12#0",
+        "tmp%14#0",
+        "tmp%15#0"
+      ]
+    },
+    "573": {
+      "op": "txna ApplicationArgs 6",
+      "defined_out": [
+        "tmp%10#0",
+        "tmp%12#0",
+        "tmp%14#0",
+        "tmp%15#0",
+        "tmp%16#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%8#0",
+        "tmp%10#0",
+        "tmp%12#0",
+        "tmp%14#0",
+        "tmp%15#0",
+        "tmp%16#0"
+      ]
+    },
+    "576": {
+      "op": "extract 2 0",
+      "defined_out": [
+        "tmp%10#0",
+        "tmp%12#0",
+        "tmp%14#0",
+        "tmp%15#0",
+        "tmp%17#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%8#0",
+        "tmp%10#0",
+        "tmp%12#0",
+        "tmp%14#0",
+        "tmp%15#0",
+        "tmp%17#0"
+      ]
+    },
+    "579": {
+      "op": "txna ApplicationArgs 7",
+      "defined_out": [
+        "tmp%10#0",
+        "tmp%12#0",
+        "tmp%14#0",
+        "tmp%15#0",
+        "tmp%17#0",
+        "tmp%18#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%8#0",
+        "tmp%10#0",
+        "tmp%12#0",
+        "tmp%14#0",
+        "tmp%15#0",
+        "tmp%17#0",
+        "tmp%18#0"
+      ]
+    },
+    "582": {
+      "op": "extract 2 0",
+      "defined_out": [
+        "tmp%10#0",
+        "tmp%12#0",
+        "tmp%14#0",
+        "tmp%15#0",
+        "tmp%17#0",
+        "tmp%19#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%8#0",
+        "tmp%10#0",
+        "tmp%12#0",
+        "tmp%14#0",
+        "tmp%15#0",
+        "tmp%17#0",
+        "tmp%19#0"
+      ]
+    },
+    "585": {
+      "op": "txna ApplicationArgs 8",
+      "defined_out": [
+        "reinterpret_bytes[8]%1#0",
+        "tmp%10#0",
+        "tmp%12#0",
+        "tmp%14#0",
+        "tmp%15#0",
+        "tmp%17#0",
+        "tmp%19#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%8#0",
+        "tmp%10#0",
+        "tmp%12#0",
+        "tmp%14#0",
+        "tmp%15#0",
+        "tmp%17#0",
+        "tmp%19#0",
+        "reinterpret_bytes[8]%1#0"
+      ]
+    },
+    "588": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%10#0",
+        "tmp%12#0",
+        "tmp%14#0",
+        "tmp%15#0",
+        "tmp%17#0",
+        "tmp%19#0",
+        "tmp%20#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%8#0",
+        "tmp%10#0",
+        "tmp%12#0",
+        "tmp%14#0",
+        "tmp%15#0",
+        "tmp%17#0",
+        "tmp%19#0",
+        "tmp%20#0"
+      ]
+    },
+    "589": {
+      "op": "txna ApplicationArgs 9",
+      "defined_out": [
+        "tmp%10#0",
+        "tmp%12#0",
+        "tmp%14#0",
+        "tmp%15#0",
+        "tmp%17#0",
+        "tmp%19#0",
+        "tmp%20#0",
+        "tmp%21#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%8#0",
+        "tmp%10#0",
+        "tmp%12#0",
+        "tmp%14#0",
+        "tmp%15#0",
+        "tmp%17#0",
+        "tmp%19#0",
+        "tmp%20#0",
+        "tmp%21#0"
+      ]
+    },
+    "592": {
+      "op": "extract 2 0",
+      "defined_out": [
+        "tmp%10#0",
+        "tmp%12#0",
+        "tmp%14#0",
+        "tmp%15#0",
+        "tmp%17#0",
+        "tmp%19#0",
+        "tmp%20#0",
+        "tmp%22#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%8#0",
+        "tmp%10#0",
+        "tmp%12#0",
+        "tmp%14#0",
+        "tmp%15#0",
+        "tmp%17#0",
+        "tmp%19#0",
+        "tmp%20#0",
+        "tmp%22#0"
+      ]
+    },
+    "595": {
+      "callsub": "smart_contracts.tokens.contract.CarbonCreditContract.initialize",
+      "op": "callsub initialize",
+      "defined_out": [
+        "to_encode%0#0"
+      ],
+      "stack_out": [
+        "to_encode%0#0"
+      ]
+    },
+    "598": {
+      "op": "itob",
+      "defined_out": [
+        "val_as_bytes%0#0"
+      ],
+      "stack_out": [
+        "val_as_bytes%0#0"
+      ]
+    },
+    "599": {
+      "op": "bytec_1 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "val_as_bytes%0#0"
+      ],
+      "stack_out": [
+        "val_as_bytes%0#0",
+        "0x151f7c75"
+      ]
+    },
+    "600": {
+      "op": "swap",
+      "stack_out": [
+        "0x151f7c75",
+        "val_as_bytes%0#0"
+      ]
+    },
+    "601": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%23#0"
+      ],
+      "stack_out": [
+        "tmp%23#0"
+      ]
+    },
+    "602": {
+      "op": "log",
+      "stack_out": []
+    },
+    "603": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "tmp%0#1"
+      ]
+    },
+    "604": {
+      "op": "return",
+      "stack_out": []
+    },
+    "605": {
+      "block": "main_bare_routing@19",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%108#0"
+      ],
+      "stack_out": [
+        "tmp%108#0"
+      ]
+    },
+    "607": {
+      "op": "bnz main_after_if_else@21",
+      "stack_out": []
+    },
+    "610": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%109#0"
+      ],
+      "stack_out": [
+        "tmp%109#0"
+      ]
+    },
+    "612": {
+      "op": "!",
+      "defined_out": [
+        "tmp%110#0"
+      ],
+      "stack_out": [
+        "tmp%110#0"
+      ]
+    },
+    "613": {
+      "error": "can only call when creating",
+      "op": "assert // can only call when creating",
+      "stack_out": []
+    },
+    "614": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "tmp%0#1"
+      ]
+    },
+    "615": {
+      "op": "return",
+      "stack_out": []
+    },
+    "616": {
+      "subroutine": "smart_contracts.tokens.contract.CarbonCreditContract.initialize",
+      "params": {
+        "manager#0": "bytes",
+        "reserve#0": "bytes",
+        "freeze#0": "bytes",
+        "clawback#0": "bytes",
+        "total_supply#0": "uint64",
+        "asset_name#0": "bytes",
+        "unit_name#0": "bytes",
+        "decimals#0": "uint64",
+        "url#0": "bytes"
+      },
+      "block": "initialize",
+      "stack_in": [],
+      "op": "proto 9 1"
+    },
+    "619": {
+      "op": "txn Sender",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "621": {
+      "op": "global CreatorAddress",
+      "defined_out": [
+        "tmp%0#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "tmp%1#0"
+      ]
+    },
+    "623": {
+      "op": "==",
+      "defined_out": [
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "tmp%2#0"
+      ]
+    },
+    "624": {
+      "error": "Only creator can initialize",
+      "op": "assert // Only creator can initialize",
+      "stack_out": []
+    },
+    "625": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "0"
+      ]
+    },
+    "626": {
+      "op": "bytec 5 // \"token_asset_id\"",
+      "defined_out": [
+        "\"token_asset_id\"",
+        "0"
+      ],
+      "stack_out": [
+        "0",
+        "\"token_asset_id\""
+      ]
+    },
+    "628": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "629": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "maybe_value%0#0",
+        "maybe_exists%0#0",
+        "0"
+      ]
+    },
+    "630": {
+      "op": "cover 2",
+      "stack_out": [
+        "0",
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "632": {
+      "op": "select",
+      "defined_out": [
+        "state_get%0#0"
+      ],
+      "stack_out": [
+        "state_get%0#0"
+      ]
+    },
+    "633": {
+      "op": "!",
+      "defined_out": [
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "tmp%3#0"
+      ]
+    },
+    "634": {
+      "error": "Already initialized",
+      "op": "assert // Already initialized",
+      "stack_out": []
+    },
+    "635": {
+      "op": "bytec 5 // \"token_asset_id\"",
+      "stack_out": [
+        "\"token_asset_id\""
+      ]
+    },
+    "637": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "\"token_asset_id\"",
+        "1"
+      ],
+      "stack_out": [
+        "\"token_asset_id\"",
+        "1"
+      ]
+    },
+    "638": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "639": {
+      "op": "bytec_2 // \"total_supply\"",
+      "defined_out": [
+        "\"total_supply\""
+      ],
+      "stack_out": [
+        "\"total_supply\""
+      ]
+    },
+    "640": {
+      "op": "frame_dig -5",
+      "defined_out": [
+        "\"total_supply\"",
+        "total_supply#0 (copy)"
+      ],
+      "stack_out": [
+        "\"total_supply\"",
+        "total_supply#0 (copy)"
+      ]
+    },
+    "642": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "643": {
+      "op": "bytec 6 // \"manager\"",
+      "defined_out": [
+        "\"manager\""
+      ],
+      "stack_out": [
+        "\"manager\""
+      ]
+    },
+    "645": {
+      "op": "frame_dig -9",
+      "defined_out": [
+        "\"manager\"",
+        "manager#0 (copy)"
+      ],
+      "stack_out": [
+        "\"manager\"",
+        "manager#0 (copy)"
+      ]
+    },
+    "647": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "648": {
+      "op": "pushbytes \"reserve\"",
+      "defined_out": [
+        "\"reserve\""
+      ],
+      "stack_out": [
+        "\"reserve\""
+      ]
+    },
+    "657": {
+      "op": "frame_dig -8",
+      "defined_out": [
+        "\"reserve\"",
+        "reserve#0 (copy)"
+      ],
+      "stack_out": [
+        "\"reserve\"",
+        "reserve#0 (copy)"
+      ]
+    },
+    "659": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "660": {
+      "op": "bytec 10 // \"freeze\"",
+      "defined_out": [
+        "\"freeze\""
+      ],
+      "stack_out": [
+        "\"freeze\""
+      ]
+    },
+    "662": {
+      "op": "frame_dig -7",
+      "defined_out": [
+        "\"freeze\"",
+        "freeze#0 (copy)"
+      ],
+      "stack_out": [
+        "\"freeze\"",
+        "freeze#0 (copy)"
+      ]
+    },
+    "664": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "665": {
+      "op": "bytec 11 // \"clawback\"",
+      "defined_out": [
+        "\"clawback\""
+      ],
+      "stack_out": [
+        "\"clawback\""
+      ]
+    },
+    "667": {
+      "op": "frame_dig -6",
+      "defined_out": [
+        "\"clawback\"",
+        "clawback#0 (copy)"
+      ],
+      "stack_out": [
+        "\"clawback\"",
+        "clawback#0 (copy)"
+      ]
+    },
+    "669": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "670": {
+      "op": "bytec 7 // \"carbon_credit_interval\"",
+      "defined_out": [
+        "\"carbon_credit_interval\""
+      ],
+      "stack_out": [
+        "\"carbon_credit_interval\""
+      ]
+    },
+    "672": {
+      "op": "intc_2 // 86400",
+      "defined_out": [
+        "\"carbon_credit_interval\"",
+        "86400"
+      ],
+      "stack_out": [
+        "\"carbon_credit_interval\"",
+        "86400"
+      ]
+    },
+    "673": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "674": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "0"
+      ]
+    },
+    "675": {
+      "op": "bytec 5 // \"token_asset_id\"",
+      "stack_out": [
+        "0",
+        "\"token_asset_id\""
+      ]
+    },
+    "677": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%1#0",
+        "maybe_value%1#0"
+      ],
+      "stack_out": [
+        "maybe_value%1#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "678": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "maybe_value%1#0",
+        "maybe_exists%1#0",
+        "0"
+      ]
+    },
+    "679": {
+      "op": "cover 2",
+      "stack_out": [
+        "0",
+        "maybe_value%1#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "681": {
+      "op": "select",
+      "defined_out": [
+        "state_get%1#0"
+      ],
+      "stack_out": [
+        "state_get%1#0"
+      ]
+    },
+    "682": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "683": {
+      "subroutine": "smart_contracts.tokens.contract.CarbonCreditContract.set_whitelist",
+      "params": {
+        "address#0": "bytes"
+      },
+      "block": "set_whitelist",
+      "stack_in": [],
+      "op": "proto 1 0"
+    },
+    "686": {
+      "op": "txn Sender",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "688": {
+      "op": "global ZeroAddress",
+      "defined_out": [
+        "tmp%0#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "tmp%1#0"
+      ]
+    },
+    "690": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0",
+        "tmp%0#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "tmp%1#0",
+        "0"
+      ]
+    },
+    "691": {
+      "op": "bytec 6 // \"manager\"",
+      "defined_out": [
+        "\"manager\"",
+        "0",
+        "tmp%0#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "tmp%1#0",
+        "0",
+        "\"manager\""
+      ]
+    },
+    "693": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0",
+        "tmp%0#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "tmp%1#0",
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "694": {
+      "op": "select",
+      "defined_out": [
+        "state_get%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "state_get%0#0"
+      ]
+    },
+    "695": {
+      "op": "==",
+      "defined_out": [
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "tmp%2#0"
+      ]
+    },
+    "696": {
+      "error": "Only manager can set whitelist",
+      "op": "assert // Only manager can set whitelist",
+      "stack_out": []
+    },
+    "697": {
+      "op": "bytec 12 // \"whitelist\"",
+      "defined_out": [
+        "\"whitelist\""
+      ],
+      "stack_out": [
+        "\"whitelist\""
+      ]
+    },
+    "699": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "\"whitelist\"",
+        "address#0 (copy)"
+      ],
+      "stack_out": [
+        "\"whitelist\"",
+        "address#0 (copy)"
+      ]
+    },
+    "701": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "702": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "703": {
+      "subroutine": "smart_contracts.tokens.contract.CarbonCreditContract.opt_in_user",
+      "params": {
+        "asset#0": "uint64"
+      },
+      "block": "opt_in_user",
+      "stack_in": [],
+      "op": "proto 1 0"
+    },
+    "706": {
+      "op": "txn Sender"
+    },
+    "708": {
+      "op": "dup"
+    },
+    "709": {
+      "op": "intc_0 // 0"
+    },
+    "710": {
+      "op": "bytec 13 // \"opted_in\"",
+      "defined_out": [
+        "\"opted_in\"",
+        "0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "sender#0",
+        "0",
+        "\"opted_in\""
+      ]
+    },
+    "712": {
+      "op": "app_local_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "713": {
+      "op": "bytec 8 // 0x00",
+      "defined_out": [
+        "0x00",
+        "maybe_exists%0#0",
+        "maybe_value%0#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "maybe_value%0#0",
+        "maybe_exists%0#0",
+        "0x00"
+      ]
+    },
+    "715": {
+      "op": "cover 2",
+      "stack_out": [
+        "sender#0",
+        "0x00",
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "717": {
+      "op": "select",
+      "defined_out": [
+        "sender#0",
+        "state_get%0#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "state_get%0#0"
+      ]
+    },
+    "718": {
+      "op": "bytec 8 // 0x00",
+      "stack_out": [
+        "sender#0",
+        "state_get%0#0",
+        "0x00"
+      ]
+    },
+    "720": {
+      "op": "==",
+      "defined_out": [
+        "sender#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "tmp%0#0"
+      ]
+    },
+    "721": {
+      "op": "bz opt_in_user_after_if_else@2",
+      "stack_out": [
+        "sender#0"
+      ]
+    },
+    "724": {
+      "op": "frame_dig 0",
+      "stack_out": [
+        "sender#0",
+        "sender#0"
+      ]
+    },
+    "726": {
+      "op": "dup",
+      "defined_out": [
+        "sender#0",
+        "sender#0 (copy)"
+      ],
+      "stack_out": [
+        "sender#0",
+        "sender#0",
+        "sender#0 (copy)"
+      ]
+    },
+    "727": {
+      "op": "bytec_0 // \"balance\"",
+      "defined_out": [
+        "\"balance\"",
+        "sender#0",
+        "sender#0 (copy)"
+      ],
+      "stack_out": [
+        "sender#0",
+        "sender#0",
+        "sender#0 (copy)",
+        "\"balance\""
+      ]
+    },
+    "728": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "sender#0",
+        "sender#0",
+        "sender#0 (copy)",
+        "\"balance\"",
+        "0"
+      ]
+    },
+    "729": {
+      "op": "app_local_put",
+      "stack_out": [
+        "sender#0",
+        "sender#0"
+      ]
+    },
+    "730": {
+      "op": "dup",
+      "stack_out": [
+        "sender#0",
+        "sender#0",
+        "sender#0 (copy)"
+      ]
+    },
+    "731": {
+      "op": "bytec 9 // \"last_mint\"",
+      "defined_out": [
+        "\"last_mint\"",
+        "sender#0",
+        "sender#0 (copy)"
+      ],
+      "stack_out": [
+        "sender#0",
+        "sender#0",
+        "sender#0 (copy)",
+        "\"last_mint\""
+      ]
+    },
+    "733": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "sender#0",
+        "sender#0",
+        "sender#0 (copy)",
+        "\"last_mint\"",
+        "0"
+      ]
+    },
+    "734": {
+      "op": "app_local_put",
+      "stack_out": [
+        "sender#0",
+        "sender#0"
+      ]
+    },
+    "735": {
+      "op": "dup",
+      "stack_out": [
+        "sender#0",
+        "sender#0",
+        "sender#0 (copy)"
+      ]
+    },
+    "736": {
+      "op": "bytec_3 // \"mint_count\"",
+      "defined_out": [
+        "\"mint_count\"",
+        "sender#0",
+        "sender#0 (copy)"
+      ],
+      "stack_out": [
+        "sender#0",
+        "sender#0",
+        "sender#0 (copy)",
+        "\"mint_count\""
+      ]
+    },
+    "737": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "sender#0",
+        "sender#0",
+        "sender#0 (copy)",
+        "\"mint_count\"",
+        "0"
+      ]
+    },
+    "738": {
+      "op": "app_local_put",
+      "stack_out": [
+        "sender#0",
+        "sender#0"
+      ]
+    },
+    "739": {
+      "op": "dup",
+      "stack_out": [
+        "sender#0",
+        "sender#0",
+        "sender#0 (copy)"
+      ]
+    },
+    "740": {
+      "op": "bytec 4 // \"redeemed\"",
+      "defined_out": [
+        "\"redeemed\"",
+        "sender#0",
+        "sender#0 (copy)"
+      ],
+      "stack_out": [
+        "sender#0",
+        "sender#0",
+        "sender#0 (copy)",
+        "\"redeemed\""
+      ]
+    },
+    "742": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "sender#0",
+        "sender#0",
+        "sender#0 (copy)",
+        "\"redeemed\"",
+        "0"
+      ]
+    },
+    "743": {
+      "op": "app_local_put",
+      "stack_out": [
+        "sender#0",
+        "sender#0"
+      ]
+    },
+    "744": {
+      "op": "dup",
+      "stack_out": [
+        "sender#0",
+        "sender#0",
+        "sender#0 (copy)"
+      ]
+    },
+    "745": {
+      "op": "pushbytes \"history\"",
+      "defined_out": [
+        "\"history\"",
+        "sender#0",
+        "sender#0 (copy)"
+      ],
+      "stack_out": [
+        "sender#0",
+        "sender#0",
+        "sender#0 (copy)",
+        "\"history\""
+      ]
+    },
+    "754": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "sender#0",
+        "sender#0",
+        "sender#0 (copy)",
+        "\"history\"",
+        "0"
+      ]
+    },
+    "755": {
+      "op": "app_local_put",
+      "stack_out": [
+        "sender#0",
+        "sender#0"
+      ]
+    },
+    "756": {
+      "op": "bytec 13 // \"opted_in\"",
+      "stack_out": [
+        "sender#0",
+        "sender#0",
+        "\"opted_in\""
+      ]
+    },
+    "758": {
+      "op": "pushbytes 0x80",
+      "defined_out": [
+        "\"opted_in\"",
+        "0x80",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "sender#0",
+        "\"opted_in\"",
+        "0x80"
+      ]
+    },
+    "761": {
+      "op": "app_local_put",
+      "stack_out": [
+        "sender#0"
+      ]
+    },
+    "762": {
+      "block": "opt_in_user_after_if_else@2",
+      "stack_in": [
+        "sender#0"
+      ],
+      "op": "itxn_begin"
+    },
+    "763": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "0"
+      ]
+    },
+    "764": {
+      "op": "itxn_field AssetAmount",
+      "stack_out": [
+        "sender#0"
+      ]
+    },
+    "766": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "asset#0 (copy)"
+      ],
+      "stack_out": [
+        "sender#0",
+        "asset#0 (copy)"
+      ]
+    },
+    "768": {
+      "op": "itxn_field XferAsset",
+      "stack_out": [
+        "sender#0"
+      ]
+    },
+    "770": {
+      "op": "frame_dig 0",
+      "defined_out": [
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "sender#0"
+      ]
+    },
+    "772": {
+      "op": "itxn_field AssetReceiver",
+      "stack_out": [
+        "sender#0"
+      ]
+    },
+    "774": {
+      "op": "pushint 4 // axfer",
+      "defined_out": [
+        "axfer",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "axfer"
+      ]
+    },
+    "776": {
+      "op": "itxn_field TypeEnum",
+      "stack_out": [
+        "sender#0"
+      ]
+    },
+    "778": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "sender#0",
+        "0"
+      ]
+    },
+    "779": {
+      "op": "itxn_field Fee",
+      "stack_out": [
+        "sender#0"
+      ]
+    },
+    "781": {
+      "op": "itxn_submit"
+    },
+    "782": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "783": {
+      "subroutine": "smart_contracts.tokens.contract.CarbonCreditContract.is_user_opted_in",
+      "params": {
+        "user#0": "bytes"
+      },
+      "block": "is_user_opted_in",
+      "stack_in": [],
+      "op": "proto 1 1"
+    },
+    "786": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "user#0 (copy)"
+      ],
+      "stack_out": [
+        "user#0 (copy)"
+      ]
+    },
+    "788": {
+      "op": "global CurrentApplicationID",
+      "defined_out": [
+        "tmp%0#0",
+        "user#0 (copy)"
+      ],
+      "stack_out": [
+        "user#0 (copy)",
+        "tmp%0#0"
+      ]
+    },
+    "790": {
+      "op": "app_opted_in",
+      "defined_out": [
+        "to_encode%0#0"
+      ],
+      "stack_out": [
+        "to_encode%0#0"
+      ]
+    },
+    "791": {
+      "op": "bytec 8 // 0x00",
+      "defined_out": [
+        "0x00",
+        "to_encode%0#0"
+      ],
+      "stack_out": [
+        "to_encode%0#0",
+        "0x00"
+      ]
+    },
+    "793": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0",
+        "0x00",
+        "to_encode%0#0"
+      ],
+      "stack_out": [
+        "to_encode%0#0",
+        "0x00",
+        "0"
+      ]
+    },
+    "794": {
+      "op": "uncover 2",
+      "stack_out": [
+        "0x00",
+        "0",
+        "to_encode%0#0"
+      ]
+    },
+    "796": {
+      "op": "setbit",
+      "defined_out": [
+        "encoded_bool%0#0"
+      ],
+      "stack_out": [
+        "encoded_bool%0#0"
+      ]
+    },
+    "797": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "798": {
+      "subroutine": "smart_contracts.tokens.contract.CarbonCreditContract.mint_token",
+      "params": {
+        "amount#0": "uint64",
+        "receiver#0": "bytes"
+      },
+      "block": "mint_token",
+      "stack_in": [],
+      "op": "proto 2 0"
+    },
+    "801": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "receiver#0 (copy)"
+      ],
+      "stack_out": [
+        "receiver#0 (copy)"
+      ]
+    },
+    "803": {
+      "op": "global CurrentApplicationID",
+      "defined_out": [
+        "receiver#0 (copy)",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "receiver#0 (copy)",
+        "tmp%0#0"
+      ]
+    },
+    "805": {
+      "op": "app_opted_in",
+      "defined_out": [
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "tmp%1#0"
+      ]
+    },
+    "806": {
+      "error": "Receiver not opted in",
+      "op": "assert // Receiver not opted in",
+      "stack_out": []
+    },
+    "807": {
+      "op": "txn Sender",
+      "defined_out": [
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "tmp%2#0"
+      ]
+    },
+    "809": {
+      "op": "global ZeroAddress",
+      "defined_out": [
+        "tmp%2#0",
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "tmp%2#0",
+        "tmp%3#0"
+      ]
+    },
+    "811": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0",
+        "tmp%2#0",
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "tmp%2#0",
+        "tmp%3#0",
+        "0"
+      ]
+    },
+    "812": {
+      "op": "bytec 6 // \"manager\"",
+      "defined_out": [
+        "\"manager\"",
+        "0",
+        "tmp%2#0",
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "tmp%2#0",
+        "tmp%3#0",
+        "0",
+        "\"manager\""
+      ]
+    },
+    "814": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0",
+        "tmp%2#0",
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "tmp%2#0",
+        "tmp%3#0",
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "815": {
+      "op": "select",
+      "defined_out": [
+        "state_get%0#0",
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "tmp%2#0",
+        "state_get%0#0"
+      ]
+    },
+    "816": {
+      "op": "==",
+      "defined_out": [
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "tmp%4#0"
+      ]
+    },
+    "817": {
+      "error": "Only manager can mint",
+      "op": "assert // Only manager can mint",
+      "stack_out": []
+    },
+    "818": {
+      "op": "frame_dig -2",
+      "defined_out": [
+        "amount#0 (copy)"
+      ],
+      "stack_out": [
+        "amount#0 (copy)"
+      ]
+    },
+    "820": {
+      "error": "Amount must be positive",
+      "op": "assert // Amount must be positive",
+      "stack_out": []
+    },
+    "821": {
+      "op": "global LatestTimestamp",
+      "defined_out": [
+        "current_time#0"
+      ],
+      "stack_out": [
+        "current_time#0"
+      ]
+    },
+    "823": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "current_time#0",
+        "0"
+      ]
+    },
+    "824": {
+      "op": "bytec 14 // \"last_mint_time\"",
+      "defined_out": [
+        "\"last_mint_time\"",
+        "0",
+        "current_time#0"
+      ],
+      "stack_out": [
+        "current_time#0",
+        "0",
+        "\"last_mint_time\""
+      ]
+    },
+    "826": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "current_time#0",
+        "maybe_exists%1#0",
+        "maybe_value%1#0"
+      ],
+      "stack_out": [
+        "current_time#0",
+        "maybe_value%1#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "827": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "current_time#0",
+        "maybe_value%1#0",
+        "maybe_exists%1#0",
+        "0"
+      ]
+    },
+    "828": {
+      "op": "cover 2",
+      "stack_out": [
+        "current_time#0",
+        "0",
+        "maybe_value%1#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "830": {
+      "op": "select",
+      "defined_out": [
+        "current_time#0",
+        "last_mint#0"
+      ],
+      "stack_out": [
+        "current_time#0",
+        "last_mint#0"
+      ]
+    },
+    "831": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "current_time#0",
+        "last_mint#0",
+        "0"
+      ]
+    },
+    "832": {
+      "op": "bytec 7 // \"carbon_credit_interval\"",
+      "defined_out": [
+        "\"carbon_credit_interval\"",
+        "0",
+        "current_time#0",
+        "last_mint#0"
+      ],
+      "stack_out": [
+        "current_time#0",
+        "last_mint#0",
+        "0",
+        "\"carbon_credit_interval\""
+      ]
+    },
+    "834": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "current_time#0",
+        "last_mint#0",
+        "maybe_exists%2#0",
+        "maybe_value%2#0"
+      ],
+      "stack_out": [
+        "current_time#0",
+        "last_mint#0",
+        "maybe_value%2#0",
+        "maybe_exists%2#0"
+      ]
+    },
+    "835": {
+      "op": "intc_2 // 86400",
+      "defined_out": [
+        "86400",
+        "current_time#0",
+        "last_mint#0",
+        "maybe_exists%2#0",
+        "maybe_value%2#0"
+      ],
+      "stack_out": [
+        "current_time#0",
+        "last_mint#0",
+        "maybe_value%2#0",
+        "maybe_exists%2#0",
+        "86400"
+      ]
+    },
+    "836": {
+      "op": "cover 2",
+      "stack_out": [
+        "current_time#0",
+        "last_mint#0",
+        "86400",
+        "maybe_value%2#0",
+        "maybe_exists%2#0"
+      ]
+    },
+    "838": {
+      "op": "select",
+      "defined_out": [
+        "current_time#0",
+        "interval#0",
+        "last_mint#0"
+      ],
+      "stack_out": [
+        "current_time#0",
+        "last_mint#0",
+        "interval#0"
+      ]
+    },
+    "839": {
+      "op": "+",
+      "defined_out": [
+        "current_time#0",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "current_time#0",
+        "tmp%6#0"
+      ]
+    },
+    "840": {
+      "op": "dig 1",
+      "defined_out": [
+        "current_time#0",
+        "current_time#0 (copy)",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "current_time#0",
+        "tmp%6#0",
+        "current_time#0 (copy)"
+      ]
+    },
+    "842": {
+      "op": "<=",
+      "defined_out": [
+        "current_time#0",
+        "tmp%7#0"
+      ],
+      "stack_out": [
+        "current_time#0",
+        "tmp%7#0"
+      ]
+    },
+    "843": {
+      "error": "Mint cooldown active",
+      "op": "assert // Mint cooldown active",
+      "stack_out": [
+        "current_time#0"
+      ]
+    },
+    "844": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "current_time#0",
+        "0"
+      ]
+    },
+    "845": {
+      "op": "bytec_2 // \"total_supply\"",
+      "defined_out": [
+        "\"total_supply\"",
+        "0",
+        "current_time#0"
+      ],
+      "stack_out": [
+        "current_time#0",
+        "0",
+        "\"total_supply\""
+      ]
+    },
+    "846": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "current_time#0",
+        "maybe_exists%3#0",
+        "maybe_value%3#0"
+      ],
+      "stack_out": [
+        "current_time#0",
+        "maybe_value%3#0",
+        "maybe_exists%3#0"
+      ]
+    },
+    "847": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "current_time#0",
+        "maybe_value%3#0",
+        "maybe_exists%3#0",
+        "0"
+      ]
+    },
+    "848": {
+      "op": "cover 2",
+      "stack_out": [
+        "current_time#0",
+        "0",
+        "maybe_value%3#0",
+        "maybe_exists%3#0"
+      ]
+    },
+    "850": {
+      "op": "select",
+      "defined_out": [
+        "current_time#0",
+        "state_get%3#0"
+      ],
+      "stack_out": [
+        "current_time#0",
+        "state_get%3#0"
+      ]
+    },
+    "851": {
+      "op": "frame_dig -2",
+      "stack_out": [
+        "current_time#0",
+        "state_get%3#0",
+        "amount#0 (copy)"
+      ]
+    },
+    "853": {
+      "op": "+",
+      "defined_out": [
+        "current_time#0",
+        "new_supply#0"
+      ],
+      "stack_out": [
+        "current_time#0",
+        "new_supply#0"
+      ]
+    },
+    "854": {
+      "op": "bytec_2 // \"total_supply\"",
+      "stack_out": [
+        "current_time#0",
+        "new_supply#0",
+        "\"total_supply\""
+      ]
+    },
+    "855": {
+      "op": "swap",
+      "stack_out": [
+        "current_time#0",
+        "\"total_supply\"",
+        "new_supply#0"
+      ]
+    },
+    "856": {
+      "op": "app_global_put",
+      "stack_out": [
+        "current_time#0"
+      ]
+    },
+    "857": {
+      "op": "bytec 14 // \"last_mint_time\"",
+      "stack_out": [
+        "current_time#0",
+        "\"last_mint_time\""
+      ]
+    },
+    "859": {
+      "op": "swap",
+      "stack_out": [
+        "\"last_mint_time\"",
+        "current_time#0"
+      ]
+    },
+    "860": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "861": {
+      "op": "frame_dig -1",
+      "stack_out": [
+        "receiver#0 (copy)"
+      ]
+    },
+    "863": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "receiver#0 (copy)",
+        "0"
+      ]
+    },
+    "864": {
+      "op": "bytec_0 // \"balance\"",
+      "defined_out": [
+        "\"balance\"",
+        "0",
+        "receiver#0 (copy)"
+      ],
+      "stack_out": [
+        "receiver#0 (copy)",
+        "0",
+        "\"balance\""
+      ]
+    },
+    "865": {
+      "op": "app_local_get_ex",
+      "defined_out": [
+        "maybe_exists%4#0",
+        "maybe_value%4#0"
+      ],
+      "stack_out": [
+        "maybe_value%4#0",
+        "maybe_exists%4#0"
+      ]
+    },
+    "866": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "maybe_value%4#0",
+        "maybe_exists%4#0",
+        "0"
+      ]
+    },
+    "867": {
+      "op": "cover 2",
+      "stack_out": [
+        "0",
+        "maybe_value%4#0",
+        "maybe_exists%4#0"
+      ]
+    },
+    "869": {
+      "op": "select",
+      "defined_out": [
+        "balance#0"
+      ],
+      "stack_out": [
+        "balance#0"
+      ]
+    },
+    "870": {
+      "op": "frame_dig -2",
+      "stack_out": [
+        "balance#0",
+        "amount#0 (copy)"
+      ]
+    },
+    "872": {
+      "op": "+",
+      "defined_out": [
+        "materialized_values%0#0"
+      ],
+      "stack_out": [
+        "materialized_values%0#0"
+      ]
+    },
+    "873": {
+      "op": "frame_dig -1",
+      "stack_out": [
+        "materialized_values%0#0",
+        "receiver#0 (copy)"
+      ]
+    },
+    "875": {
+      "op": "bytec_0 // \"balance\"",
+      "stack_out": [
+        "materialized_values%0#0",
+        "receiver#0 (copy)",
+        "\"balance\""
+      ]
+    },
+    "876": {
+      "op": "uncover 2",
+      "stack_out": [
+        "receiver#0 (copy)",
+        "\"balance\"",
+        "materialized_values%0#0"
+      ]
+    },
+    "878": {
+      "op": "app_local_put",
+      "stack_out": []
+    },
+    "879": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "880": {
+      "subroutine": "smart_contracts.tokens.contract.CarbonCreditContract.transfer_token",
+      "params": {
+        "amount#0": "uint64",
+        "receiver#0": "bytes"
+      },
+      "block": "transfer_token",
+      "stack_in": [],
+      "op": "proto 2 0"
+    },
+    "883": {
+      "op": "txn Sender"
+    },
+    "885": {
+      "op": "global ZeroAddress"
+    },
+    "887": {
+      "op": "intc_0 // 0"
+    },
+    "888": {
+      "op": "bytec 12 // \"whitelist\"",
+      "defined_out": [
+        "\"whitelist\"",
+        "0",
+        "sender#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "tmp%0#0",
+        "0",
+        "\"whitelist\""
+      ]
+    },
+    "890": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0",
+        "sender#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "tmp%0#0",
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "891": {
+      "op": "select",
+      "defined_out": [
+        "sender#0",
+        "whitelist#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "whitelist#0"
+      ]
+    },
+    "892": {
+      "op": "dup",
+      "defined_out": [
+        "sender#0",
+        "whitelist#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "whitelist#0"
+      ]
+    },
+    "893": {
+      "op": "global ZeroAddress",
+      "defined_out": [
+        "sender#0",
+        "tmp%1#0",
+        "whitelist#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "whitelist#0",
+        "tmp%1#0"
+      ]
+    },
+    "895": {
+      "op": "!=",
+      "defined_out": [
+        "sender#0",
+        "tmp%2#0",
+        "whitelist#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "tmp%2#0"
+      ]
+    },
+    "896": {
+      "op": "bz transfer_token_after_if_else@6",
+      "stack_out": [
+        "sender#0",
+        "whitelist#0"
+      ]
+    },
+    "899": {
+      "op": "frame_dig 0",
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "sender#0"
+      ]
+    },
+    "901": {
+      "op": "frame_dig 1",
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "sender#0",
+        "whitelist#0"
+      ]
+    },
+    "903": {
+      "op": "==",
+      "defined_out": [
+        "sender#0",
+        "tmp%3#0",
+        "whitelist#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "tmp%3#0"
+      ]
+    },
+    "904": {
+      "op": "bnz transfer_token_bool_true@3",
+      "stack_out": [
+        "sender#0",
+        "whitelist#0"
+      ]
+    },
+    "907": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "receiver#0 (copy)",
+        "sender#0",
+        "whitelist#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "receiver#0 (copy)"
+      ]
+    },
+    "909": {
+      "op": "frame_dig 1",
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "receiver#0 (copy)",
+        "whitelist#0"
+      ]
+    },
+    "911": {
+      "op": "==",
+      "defined_out": [
+        "sender#0",
+        "tmp%4#0",
+        "whitelist#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "tmp%4#0"
+      ]
+    },
+    "912": {
+      "op": "bz transfer_token_bool_false@4",
+      "stack_out": [
+        "sender#0",
+        "whitelist#0"
+      ]
+    },
+    "915": {
+      "block": "transfer_token_bool_true@3",
+      "stack_in": [
+        "sender#0",
+        "whitelist#0"
+      ],
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "or_result%0#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "or_result%0#0"
+      ]
+    },
+    "916": {
+      "block": "transfer_token_bool_merge@5",
+      "stack_in": [
+        "sender#0",
+        "whitelist#0",
+        "or_result%0#0"
+      ],
+      "error": "Address not whitelisted",
+      "op": "assert // Address not whitelisted",
+      "defined_out": [],
+      "stack_out": [
+        "sender#0",
+        "whitelist#0"
+      ]
+    },
+    "917": {
+      "block": "transfer_token_after_if_else@6",
+      "stack_in": [
+        "sender#0",
+        "whitelist#0"
+      ],
+      "op": "frame_dig 0",
+      "defined_out": [
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "sender#0"
+      ]
+    },
+    "919": {
+      "op": "dup",
+      "defined_out": [
+        "sender#0",
+        "sender#0 (copy)"
+      ],
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "sender#0",
+        "sender#0 (copy)"
+      ]
+    },
+    "920": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0",
+        "sender#0",
+        "sender#0 (copy)"
+      ],
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "sender#0",
+        "sender#0 (copy)",
+        "0"
+      ]
+    },
+    "921": {
+      "op": "bytec_0 // \"balance\"",
+      "defined_out": [
+        "\"balance\"",
+        "0",
+        "sender#0",
+        "sender#0 (copy)"
+      ],
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "sender#0",
+        "sender#0 (copy)",
+        "0",
+        "\"balance\""
+      ]
+    },
+    "922": {
+      "op": "app_local_get_ex",
+      "defined_out": [
+        "maybe_exists%1#0",
+        "maybe_value%1#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "sender#0",
+        "maybe_value%1#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "923": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "sender#0",
+        "maybe_value%1#0",
+        "maybe_exists%1#0",
+        "0"
+      ]
+    },
+    "924": {
+      "op": "cover 2",
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "sender#0",
+        "0",
+        "maybe_value%1#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "926": {
+      "op": "select",
+      "defined_out": [
+        "sender#0",
+        "sender_balance#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "sender#0",
+        "sender_balance#0"
+      ]
+    },
+    "927": {
+      "op": "dup",
+      "defined_out": [
+        "sender#0",
+        "sender_balance#0",
+        "sender_balance#0 (copy)"
+      ],
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "sender#0",
+        "sender_balance#0",
+        "sender_balance#0 (copy)"
+      ]
+    },
+    "928": {
+      "op": "frame_dig -2",
+      "defined_out": [
+        "amount#0 (copy)",
+        "sender#0",
+        "sender_balance#0",
+        "sender_balance#0 (copy)"
+      ],
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "sender#0",
+        "sender_balance#0",
+        "sender_balance#0 (copy)",
+        "amount#0 (copy)"
+      ]
+    },
+    "930": {
+      "op": ">=",
+      "defined_out": [
+        "sender#0",
+        "sender_balance#0",
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "sender#0",
+        "sender_balance#0",
+        "tmp%5#0"
+      ]
+    },
+    "931": {
+      "error": "Insufficient balance",
+      "op": "assert // Insufficient balance",
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "sender#0",
+        "sender_balance#0"
+      ]
+    },
+    "932": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "receiver#0 (copy)",
+        "sender#0",
+        "sender_balance#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "sender#0",
+        "sender_balance#0",
+        "receiver#0 (copy)"
+      ]
+    },
+    "934": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "sender#0",
+        "sender_balance#0",
+        "receiver#0 (copy)",
+        "0"
+      ]
+    },
+    "935": {
+      "op": "bytec_0 // \"balance\"",
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "sender#0",
+        "sender_balance#0",
+        "receiver#0 (copy)",
+        "0",
+        "\"balance\""
+      ]
+    },
+    "936": {
+      "op": "app_local_get_ex",
+      "defined_out": [
+        "maybe_exists%2#0",
+        "maybe_value%2#0",
+        "sender#0",
+        "sender_balance#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "sender#0",
+        "sender_balance#0",
+        "maybe_value%2#0",
+        "maybe_exists%2#0"
+      ]
+    },
+    "937": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "sender#0",
+        "sender_balance#0",
+        "maybe_value%2#0",
+        "maybe_exists%2#0",
+        "0"
+      ]
+    },
+    "938": {
+      "op": "cover 2",
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "sender#0",
+        "sender_balance#0",
+        "0",
+        "maybe_value%2#0",
+        "maybe_exists%2#0"
+      ]
+    },
+    "940": {
+      "op": "select",
+      "defined_out": [
+        "receiver_balance#0",
+        "sender#0",
+        "sender_balance#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "sender#0",
+        "sender_balance#0",
+        "receiver_balance#0"
+      ]
+    },
+    "941": {
+      "op": "swap",
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "sender#0",
+        "receiver_balance#0",
+        "sender_balance#0"
+      ]
+    },
+    "942": {
+      "op": "frame_dig -2",
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "sender#0",
+        "receiver_balance#0",
+        "sender_balance#0",
+        "amount#0 (copy)"
+      ]
+    },
+    "944": {
+      "op": "-",
+      "defined_out": [
+        "materialized_values%0#0",
+        "receiver_balance#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "sender#0",
+        "receiver_balance#0",
+        "materialized_values%0#0"
+      ]
+    },
+    "945": {
+      "op": "uncover 2",
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "receiver_balance#0",
+        "materialized_values%0#0",
+        "sender#0"
+      ]
+    },
+    "947": {
+      "op": "bytec_0 // \"balance\"",
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "receiver_balance#0",
+        "materialized_values%0#0",
+        "sender#0",
+        "\"balance\""
+      ]
+    },
+    "948": {
+      "op": "uncover 2",
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "receiver_balance#0",
+        "sender#0",
+        "\"balance\"",
+        "materialized_values%0#0"
+      ]
+    },
+    "950": {
+      "op": "app_local_put",
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "receiver_balance#0"
+      ]
+    },
+    "951": {
+      "op": "frame_dig -2",
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "receiver_balance#0",
+        "amount#0 (copy)"
+      ]
+    },
+    "953": {
+      "op": "+",
+      "defined_out": [
+        "materialized_values%1#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "materialized_values%1#0"
+      ]
+    },
+    "954": {
+      "op": "frame_dig -1",
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "materialized_values%1#0",
+        "receiver#0 (copy)"
+      ]
+    },
+    "956": {
+      "op": "bytec_0 // \"balance\"",
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "materialized_values%1#0",
+        "receiver#0 (copy)",
+        "\"balance\""
+      ]
+    },
+    "957": {
+      "op": "uncover 2",
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "receiver#0 (copy)",
+        "\"balance\"",
+        "materialized_values%1#0"
+      ]
+    },
+    "959": {
+      "op": "app_local_put",
+      "stack_out": [
+        "sender#0",
+        "whitelist#0"
+      ]
+    },
+    "960": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "961": {
+      "block": "transfer_token_bool_false@4",
+      "stack_in": [
+        "sender#0",
+        "whitelist#0"
+      ],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "or_result%0#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "whitelist#0",
+        "or_result%0#0"
+      ]
+    },
+    "962": {
+      "op": "b transfer_token_bool_merge@5"
+    },
+    "965": {
+      "subroutine": "smart_contracts.tokens.contract.CarbonCreditContract.redeem_token",
+      "params": {
+        "amount#0": "uint64"
+      },
+      "block": "redeem_token",
+      "stack_in": [],
+      "op": "proto 1 0"
+    },
+    "968": {
+      "op": "txn Sender",
+      "defined_out": [
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0"
+      ]
+    },
+    "970": {
+      "op": "dup",
+      "defined_out": [
+        "sender#0",
+        "sender#0 (copy)"
+      ],
+      "stack_out": [
+        "sender#0",
+        "sender#0 (copy)"
+      ]
+    },
+    "971": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0",
+        "sender#0",
+        "sender#0 (copy)"
+      ],
+      "stack_out": [
+        "sender#0",
+        "sender#0 (copy)",
+        "0"
+      ]
+    },
+    "972": {
+      "op": "bytec_0 // \"balance\"",
+      "defined_out": [
+        "\"balance\"",
+        "0",
+        "sender#0",
+        "sender#0 (copy)"
+      ],
+      "stack_out": [
+        "sender#0",
+        "sender#0 (copy)",
+        "0",
+        "\"balance\""
+      ]
+    },
+    "973": {
+      "op": "app_local_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "974": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "sender#0",
+        "maybe_value%0#0",
+        "maybe_exists%0#0",
+        "0"
+      ]
+    },
+    "975": {
+      "op": "cover 2",
+      "stack_out": [
+        "sender#0",
+        "0",
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "977": {
+      "op": "select",
+      "defined_out": [
+        "balance#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "balance#0"
+      ]
+    },
+    "978": {
+      "op": "dup",
+      "defined_out": [
+        "balance#0",
+        "balance#0 (copy)",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "balance#0",
+        "balance#0 (copy)"
+      ]
+    },
+    "979": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "amount#0 (copy)",
+        "balance#0",
+        "balance#0 (copy)",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "balance#0",
+        "balance#0 (copy)",
+        "amount#0 (copy)"
+      ]
+    },
+    "981": {
+      "op": ">=",
+      "defined_out": [
+        "balance#0",
+        "sender#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "balance#0",
+        "tmp%0#0"
+      ]
+    },
+    "982": {
+      "error": "Insufficient balance",
+      "op": "assert // Insufficient balance",
+      "stack_out": [
+        "sender#0",
+        "balance#0"
+      ]
+    },
+    "983": {
+      "op": "frame_dig -1",
+      "stack_out": [
+        "sender#0",
+        "balance#0",
+        "amount#0 (copy)"
+      ]
+    },
+    "985": {
+      "op": "-",
+      "defined_out": [
+        "materialized_values%0#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "materialized_values%0#0"
+      ]
+    },
+    "986": {
+      "op": "dig 1",
+      "stack_out": [
+        "sender#0",
+        "materialized_values%0#0",
+        "sender#0 (copy)"
+      ]
+    },
+    "988": {
+      "op": "bytec_0 // \"balance\"",
+      "stack_out": [
+        "sender#0",
+        "materialized_values%0#0",
+        "sender#0 (copy)",
+        "\"balance\""
+      ]
+    },
+    "989": {
+      "op": "uncover 2",
+      "stack_out": [
+        "sender#0",
+        "sender#0 (copy)",
+        "\"balance\"",
+        "materialized_values%0#0"
+      ]
+    },
+    "991": {
+      "op": "app_local_put",
+      "stack_out": [
+        "sender#0"
+      ]
+    },
+    "992": {
+      "op": "dup",
+      "stack_out": [
+        "sender#0",
+        "sender#0 (copy)"
+      ]
+    },
+    "993": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "sender#0",
+        "sender#0 (copy)",
+        "0"
+      ]
+    },
+    "994": {
+      "op": "bytec 4 // \"redeemed\"",
+      "defined_out": [
+        "\"redeemed\"",
+        "0",
+        "sender#0",
+        "sender#0 (copy)"
+      ],
+      "stack_out": [
+        "sender#0",
+        "sender#0 (copy)",
+        "0",
+        "\"redeemed\""
+      ]
+    },
+    "996": {
+      "op": "app_local_get_ex",
+      "defined_out": [
+        "maybe_exists%1#0",
+        "maybe_value%1#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "maybe_value%1#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "997": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "sender#0",
+        "maybe_value%1#0",
+        "maybe_exists%1#0",
+        "0"
+      ]
+    },
+    "998": {
+      "op": "cover 2",
+      "stack_out": [
+        "sender#0",
+        "0",
+        "maybe_value%1#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "1000": {
+      "op": "select",
+      "defined_out": [
+        "redeemed#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "redeemed#0"
+      ]
+    },
+    "1001": {
+      "op": "frame_dig -1",
+      "stack_out": [
+        "sender#0",
+        "redeemed#0",
+        "amount#0 (copy)"
+      ]
+    },
+    "1003": {
+      "op": "+",
+      "defined_out": [
+        "materialized_values%1#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "materialized_values%1#0"
+      ]
+    },
+    "1004": {
+      "op": "bytec 4 // \"redeemed\""
+    },
+    "1006": {
+      "op": "swap",
+      "stack_out": [
+        "sender#0",
+        "\"redeemed\"",
+        "materialized_values%1#0"
+      ]
+    },
+    "1007": {
+      "op": "app_local_put",
+      "stack_out": []
+    },
+    "1008": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "0"
+      ]
+    },
+    "1009": {
+      "op": "bytec_2 // \"total_supply\"",
+      "defined_out": [
+        "\"total_supply\"",
+        "0"
+      ],
+      "stack_out": [
+        "0",
+        "\"total_supply\""
+      ]
+    },
+    "1010": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%2#0",
+        "maybe_value%2#0"
+      ],
+      "stack_out": [
+        "maybe_value%2#0",
+        "maybe_exists%2#0"
+      ]
+    },
+    "1011": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "maybe_value%2#0",
+        "maybe_exists%2#0",
+        "0"
+      ]
+    },
+    "1012": {
+      "op": "cover 2",
+      "stack_out": [
+        "0",
+        "maybe_value%2#0",
+        "maybe_exists%2#0"
+      ]
+    },
+    "1014": {
+      "op": "select",
+      "defined_out": [
+        "state_get%2#0"
+      ],
+      "stack_out": [
+        "state_get%2#0"
+      ]
+    },
+    "1015": {
+      "op": "frame_dig -1",
+      "stack_out": [
+        "state_get%2#0",
+        "amount#0 (copy)"
+      ]
+    },
+    "1017": {
+      "op": "-",
+      "defined_out": [
+        "materialized_values%2#0"
+      ],
+      "stack_out": [
+        "materialized_values%2#0"
+      ]
+    },
+    "1018": {
+      "op": "bytec_2 // \"total_supply\"",
+      "stack_out": [
+        "materialized_values%2#0",
+        "\"total_supply\""
+      ]
+    },
+    "1019": {
+      "op": "swap",
+      "stack_out": [
+        "\"total_supply\"",
+        "materialized_values%2#0"
+      ]
+    },
+    "1020": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "1021": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "1022": {
+      "subroutine": "smart_contracts.tokens.contract.CarbonCreditContract.recover_token",
+      "params": {
+        "user_id#0": "bytes"
+      },
+      "block": "recover_token",
+      "stack_in": [],
+      "op": "proto 1 0"
+    },
+    "1025": {
+      "op": "txn Sender",
+      "defined_out": [
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0"
+      ]
+    },
+    "1027": {
+      "op": "dup",
+      "defined_out": [
+        "sender#0",
+        "sender#0 (copy)"
+      ],
+      "stack_out": [
+        "sender#0",
+        "sender#0 (copy)"
+      ]
+    },
+    "1028": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0",
+        "sender#0",
+        "sender#0 (copy)"
+      ],
+      "stack_out": [
+        "sender#0",
+        "sender#0 (copy)",
+        "0"
+      ]
+    },
+    "1029": {
+      "op": "bytec_3 // \"mint_count\"",
+      "defined_out": [
+        "\"mint_count\"",
+        "0",
+        "sender#0",
+        "sender#0 (copy)"
+      ],
+      "stack_out": [
+        "sender#0",
+        "sender#0 (copy)",
+        "0",
+        "\"mint_count\""
+      ]
+    },
+    "1030": {
+      "op": "app_local_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "1031": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "sender#0",
+        "maybe_value%0#0",
+        "maybe_exists%0#0",
+        "0"
+      ]
+    },
+    "1032": {
+      "op": "cover 2",
+      "stack_out": [
+        "sender#0",
+        "0",
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "1034": {
+      "op": "select",
+      "defined_out": [
+        "mint_count#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "mint_count#0"
+      ]
+    },
+    "1035": {
+      "op": "dig 1",
+      "stack_out": [
+        "sender#0",
+        "mint_count#0",
+        "sender#0 (copy)"
+      ]
+    },
+    "1037": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "sender#0",
+        "mint_count#0",
+        "sender#0 (copy)",
+        "0"
+      ]
+    },
+    "1038": {
+      "op": "bytec 9 // \"last_mint\"",
+      "defined_out": [
+        "\"last_mint\"",
+        "0",
+        "mint_count#0",
+        "sender#0",
+        "sender#0 (copy)"
+      ],
+      "stack_out": [
+        "sender#0",
+        "mint_count#0",
+        "sender#0 (copy)",
+        "0",
+        "\"last_mint\""
+      ]
+    },
+    "1040": {
+      "op": "app_local_get_ex",
+      "defined_out": [
+        "maybe_exists%1#0",
+        "maybe_value%1#0",
+        "mint_count#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "mint_count#0",
+        "maybe_value%1#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "1041": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "sender#0",
+        "mint_count#0",
+        "maybe_value%1#0",
+        "maybe_exists%1#0",
+        "0"
+      ]
+    },
+    "1042": {
+      "op": "cover 2",
+      "stack_out": [
+        "sender#0",
+        "mint_count#0",
+        "0",
+        "maybe_value%1#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "1044": {
+      "op": "select",
+      "defined_out": [
+        "last_mint#0",
+        "mint_count#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "mint_count#0",
+        "last_mint#0"
+      ]
+    },
+    "1045": {
+      "op": "dig 1",
+      "defined_out": [
+        "last_mint#0",
+        "mint_count#0",
+        "mint_count#0 (copy)",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "mint_count#0",
+        "last_mint#0",
+        "mint_count#0 (copy)"
+      ]
+    },
+    "1047": {
+      "op": "pushint 2 // 2",
+      "defined_out": [
+        "2",
+        "last_mint#0",
+        "mint_count#0",
+        "mint_count#0 (copy)",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "mint_count#0",
+        "last_mint#0",
+        "mint_count#0 (copy)",
+        "2"
+      ]
+    },
+    "1049": {
+      "op": "<",
+      "defined_out": [
+        "last_mint#0",
+        "mint_count#0",
+        "sender#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "mint_count#0",
+        "last_mint#0",
+        "tmp%0#0"
+      ]
+    },
+    "1050": {
+      "error": "Recovery limit reached",
+      "op": "assert // Recovery limit reached",
+      "stack_out": [
+        "sender#0",
+        "mint_count#0",
+        "last_mint#0"
+      ]
+    },
+    "1051": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "sender#0",
+        "mint_count#0",
+        "last_mint#0",
+        "0"
+      ]
+    },
+    "1052": {
+      "op": "bytec 7 // \"carbon_credit_interval\"",
+      "defined_out": [
+        "\"carbon_credit_interval\"",
+        "0",
+        "last_mint#0",
+        "mint_count#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "mint_count#0",
+        "last_mint#0",
+        "0",
+        "\"carbon_credit_interval\""
+      ]
+    },
+    "1054": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "last_mint#0",
+        "maybe_exists%2#0",
+        "maybe_value%2#0",
+        "mint_count#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "mint_count#0",
+        "last_mint#0",
+        "maybe_value%2#0",
+        "maybe_exists%2#0"
+      ]
+    },
+    "1055": {
+      "op": "intc_2 // 86400",
+      "defined_out": [
+        "86400",
+        "last_mint#0",
+        "maybe_exists%2#0",
+        "maybe_value%2#0",
+        "mint_count#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "mint_count#0",
+        "last_mint#0",
+        "maybe_value%2#0",
+        "maybe_exists%2#0",
+        "86400"
+      ]
+    },
+    "1056": {
+      "op": "cover 2",
+      "stack_out": [
+        "sender#0",
+        "mint_count#0",
+        "last_mint#0",
+        "86400",
+        "maybe_value%2#0",
+        "maybe_exists%2#0"
+      ]
+    },
+    "1058": {
+      "op": "select",
+      "defined_out": [
+        "cooldown#0",
+        "last_mint#0",
+        "mint_count#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "mint_count#0",
+        "last_mint#0",
+        "cooldown#0"
+      ]
+    },
+    "1059": {
+      "op": "global LatestTimestamp",
+      "defined_out": [
+        "cooldown#0",
+        "last_mint#0",
+        "mint_count#0",
+        "sender#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "mint_count#0",
+        "last_mint#0",
+        "cooldown#0",
+        "tmp%1#0"
+      ]
+    },
+    "1061": {
+      "op": "cover 2",
+      "stack_out": [
+        "sender#0",
+        "mint_count#0",
+        "tmp%1#0",
+        "last_mint#0",
+        "cooldown#0"
+      ]
+    },
+    "1063": {
+      "op": "+",
+      "defined_out": [
+        "mint_count#0",
+        "sender#0",
+        "tmp%1#0",
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "mint_count#0",
+        "tmp%1#0",
+        "tmp%2#0"
+      ]
+    },
+    "1064": {
+      "op": ">=",
+      "defined_out": [
+        "mint_count#0",
+        "sender#0",
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "mint_count#0",
+        "tmp%3#0"
+      ]
+    },
+    "1065": {
+      "error": "Cooldown active",
+      "op": "assert // Cooldown active",
+      "stack_out": [
+        "sender#0",
+        "mint_count#0"
+      ]
+    },
+    "1066": {
+      "op": "pushint 100 // 100",
+      "defined_out": [
+        "100",
+        "mint_count#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "mint_count#0",
+        "100"
+      ]
+    },
+    "1068": {
+      "op": "dig 2",
+      "stack_out": [
+        "sender#0",
+        "mint_count#0",
+        "100",
+        "sender#0 (copy)"
+      ]
+    },
+    "1070": {
+      "callsub": "smart_contracts.tokens.contract.CarbonCreditContract.mint_token",
+      "op": "callsub mint_token",
+      "stack_out": [
+        "sender#0",
+        "mint_count#0"
+      ]
+    },
+    "1073": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1",
+        "mint_count#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "mint_count#0",
+        "1"
+      ]
+    },
+    "1074": {
+      "op": "+",
+      "defined_out": [
+        "materialized_values%0#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "materialized_values%0#0"
+      ]
+    },
+    "1075": {
+      "op": "dig 1",
+      "stack_out": [
+        "sender#0",
+        "materialized_values%0#0",
+        "sender#0 (copy)"
+      ]
+    },
+    "1077": {
+      "op": "bytec_3 // \"mint_count\"",
+      "stack_out": [
+        "sender#0",
+        "materialized_values%0#0",
+        "sender#0 (copy)",
+        "\"mint_count\""
+      ]
+    },
+    "1078": {
+      "op": "uncover 2",
+      "stack_out": [
+        "sender#0",
+        "sender#0 (copy)",
+        "\"mint_count\"",
+        "materialized_values%0#0"
+      ]
+    },
+    "1080": {
+      "op": "app_local_put",
+      "stack_out": [
+        "sender#0"
+      ]
+    },
+    "1081": {
+      "op": "bytec 9 // \"last_mint\""
+    },
+    "1083": {
+      "op": "global LatestTimestamp",
+      "defined_out": [
+        "\"last_mint\"",
+        "materialized_values%1#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "\"last_mint\"",
+        "materialized_values%1#0"
+      ]
+    },
+    "1085": {
+      "op": "app_local_put",
+      "stack_out": []
+    },
+    "1086": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "1087": {
+      "subroutine": "smart_contracts.tokens.contract.CarbonCreditContract.get_balance",
+      "params": {
+        "account#0": "bytes"
+      },
+      "block": "get_balance",
+      "stack_in": [],
+      "op": "proto 1 1"
+    },
+    "1090": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "account#0 (copy)"
+      ],
+      "stack_out": [
+        "account#0 (copy)"
+      ]
+    },
+    "1092": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0",
+        "account#0 (copy)"
+      ],
+      "stack_out": [
+        "account#0 (copy)",
+        "0"
+      ]
+    },
+    "1093": {
+      "op": "bytec_0 // \"balance\"",
+      "defined_out": [
+        "\"balance\"",
+        "0",
+        "account#0 (copy)"
+      ],
+      "stack_out": [
+        "account#0 (copy)",
+        "0",
+        "\"balance\""
+      ]
+    },
+    "1094": {
+      "op": "app_local_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "1095": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "maybe_value%0#0",
+        "maybe_exists%0#0",
+        "0"
+      ]
+    },
+    "1096": {
+      "op": "cover 2",
+      "stack_out": [
+        "0",
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "1098": {
+      "op": "select",
+      "defined_out": [
+        "state_get%0#0"
+      ],
+      "stack_out": [
+        "state_get%0#0"
+      ]
+    },
+    "1099": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "1100": {
+      "subroutine": "smart_contracts.tokens.contract.CarbonCreditContract.get_total_supply",
+      "params": {},
+      "block": "get_total_supply",
+      "stack_in": [],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "0"
+      ]
+    },
+    "1101": {
+      "op": "bytec_2 // \"total_supply\"",
+      "defined_out": [
+        "\"total_supply\"",
+        "0"
+      ],
+      "stack_out": [
+        "0",
+        "\"total_supply\""
+      ]
+    },
+    "1102": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "1103": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "maybe_value%0#0",
+        "maybe_exists%0#0",
+        "0"
+      ]
+    },
+    "1104": {
+      "op": "cover 2",
+      "stack_out": [
+        "0",
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "1106": {
+      "op": "select",
+      "defined_out": [
+        "state_get%0#0"
+      ],
+      "stack_out": [
+        "state_get%0#0"
+      ]
+    },
+    "1107": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "1108": {
+      "subroutine": "smart_contracts.tokens.contract.CarbonCreditContract.freeze_account",
+      "params": {
+        "target#0": "bytes"
+      },
+      "block": "freeze_account",
+      "stack_in": [],
+      "op": "proto 1 0"
+    },
+    "1111": {
+      "op": "txn Sender",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "1113": {
+      "op": "global ZeroAddress",
+      "defined_out": [
+        "tmp%0#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "tmp%1#0"
+      ]
+    },
+    "1115": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0",
+        "tmp%0#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "tmp%1#0",
+        "0"
+      ]
+    },
+    "1116": {
+      "op": "bytec 10 // \"freeze\"",
+      "defined_out": [
+        "\"freeze\"",
+        "0",
+        "tmp%0#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "tmp%1#0",
+        "0",
+        "\"freeze\""
+      ]
+    },
+    "1118": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0",
+        "tmp%0#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "tmp%1#0",
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "1119": {
+      "op": "select",
+      "defined_out": [
+        "state_get%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "state_get%0#0"
+      ]
+    },
+    "1120": {
+      "op": "==",
+      "defined_out": [
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "tmp%2#0"
+      ]
+    },
+    "1121": {
+      "error": "Only freeze account",
+      "op": "assert // Only freeze account",
+      "stack_out": []
+    },
+    "1122": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "1123": {
+      "subroutine": "smart_contracts.tokens.contract.CarbonCreditContract.clawback_tokens",
+      "params": {
+        "target#0": "bytes",
+        "amount#0": "uint64"
+      },
+      "block": "clawback_tokens",
+      "stack_in": [],
+      "op": "proto 2 0"
+    },
+    "1126": {
+      "op": "txn Sender",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "1128": {
+      "op": "global ZeroAddress",
+      "defined_out": [
+        "tmp%0#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "tmp%1#0"
+      ]
+    },
+    "1130": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0",
+        "tmp%0#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "tmp%1#0",
+        "0"
+      ]
+    },
+    "1131": {
+      "op": "bytec 11 // \"clawback\"",
+      "defined_out": [
+        "\"clawback\"",
+        "0",
+        "tmp%0#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "tmp%1#0",
+        "0",
+        "\"clawback\""
+      ]
+    },
+    "1133": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0",
+        "tmp%0#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "tmp%1#0",
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "1134": {
+      "op": "select",
+      "defined_out": [
+        "state_get%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "state_get%0#0"
+      ]
+    },
+    "1135": {
+      "op": "==",
+      "defined_out": [
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "tmp%2#0"
+      ]
+    },
+    "1136": {
+      "error": "Only clawback",
+      "op": "assert // Only clawback",
+      "stack_out": []
+    },
+    "1137": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "1138": {
+      "subroutine": "smart_contracts.tokens.contract.CarbonCreditContract.get_user_redemptions",
+      "params": {
+        "user#0": "bytes"
+      },
+      "block": "get_user_redemptions",
+      "stack_in": [],
+      "op": "proto 1 1"
+    },
+    "1141": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "user#0 (copy)"
+      ],
+      "stack_out": [
+        "user#0 (copy)"
+      ]
+    },
+    "1143": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0",
+        "user#0 (copy)"
+      ],
+      "stack_out": [
+        "user#0 (copy)",
+        "0"
+      ]
+    },
+    "1144": {
+      "op": "bytec 4 // \"redeemed\"",
+      "defined_out": [
+        "\"redeemed\"",
+        "0",
+        "user#0 (copy)"
+      ],
+      "stack_out": [
+        "user#0 (copy)",
+        "0",
+        "\"redeemed\""
+      ]
+    },
+    "1146": {
+      "op": "app_local_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "1147": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "maybe_value%0#0",
+        "maybe_exists%0#0",
+        "0"
+      ]
+    },
+    "1148": {
+      "op": "cover 2",
+      "stack_out": [
+        "0",
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "1150": {
+      "op": "select",
+      "defined_out": [
+        "state_get%0#0"
+      ],
+      "stack_out": [
+        "state_get%0#0"
+      ]
+    },
+    "1151": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "1152": {
+      "subroutine": "smart_contracts.tokens.contract.CarbonCreditContract.get_user_mint_count",
+      "params": {
+        "user#0": "bytes"
+      },
+      "block": "get_user_mint_count",
+      "stack_in": [],
+      "op": "proto 1 1"
+    },
+    "1155": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "user#0 (copy)"
+      ],
+      "stack_out": [
+        "user#0 (copy)"
+      ]
+    },
+    "1157": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0",
+        "user#0 (copy)"
+      ],
+      "stack_out": [
+        "user#0 (copy)",
+        "0"
+      ]
+    },
+    "1158": {
+      "op": "bytec_3 // \"mint_count\"",
+      "defined_out": [
+        "\"mint_count\"",
+        "0",
+        "user#0 (copy)"
+      ],
+      "stack_out": [
+        "user#0 (copy)",
+        "0",
+        "\"mint_count\""
+      ]
+    },
+    "1159": {
+      "op": "app_local_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "1160": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "maybe_value%0#0",
+        "maybe_exists%0#0",
+        "0"
+      ]
+    },
+    "1161": {
+      "op": "cover 2",
+      "stack_out": [
+        "0",
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "1163": {
+      "op": "select",
+      "defined_out": [
+        "state_get%0#0"
+      ],
+      "stack_out": [
+        "state_get%0#0"
+      ]
+    },
+    "1164": {
+      "retsub": true,
+      "op": "retsub"
+    }
+  }
+}

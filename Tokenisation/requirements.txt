@@ -1,0 +1,6 @@
+py-algorand-sdk>=2.0.0
+python-dotenv>=0.19.0
+requests>=2.26.0
+ipfshttpclient>=0.8.0
+pyteal>=0.20.0
+algokit-utils>=1.0.0
